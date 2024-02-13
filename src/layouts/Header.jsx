@@ -37,7 +37,7 @@ export default function Header() {
             </div>
             <div>
                 <div>
-                <h3 className=' font-container xl:mx-[136px] lg:mx-[40px] md:mx-[20px] mx-[5px] text-[24px] font-bold font- text-[#252B42] leading-8 pb-2'>GG Store</h3>
+                <h3 className=' font-container xl:mx-[136px] lg:mx-[40px] md:mx-[20px] mx-[5px] text-[24px] font-bold font- text-[#252B42] leading-8 pb-2'></h3>
                 </div>
                 <div>
                     <div>
