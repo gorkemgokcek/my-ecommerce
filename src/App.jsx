@@ -1,13 +1,11 @@
 import './App.css'
 import { Switch, Route } from "react-router-dom";
-import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './layouts/Header';
-import HomePage from './pages/HomePage';
 import Footer from './layouts/Footer';
+import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ProductPage from './pages/ProductPage';
 import ContactPage from './pages/ContactPage';
-import React from 'react';
 import Team from "./pages/TeamPage"
 
 
