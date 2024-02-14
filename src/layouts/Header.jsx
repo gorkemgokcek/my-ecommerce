@@ -18,20 +18,22 @@ export default function Header() {
                 <div className='flex'>
                     <h3 className='font-bold'>GG Store</h3>
                 </div>
-                <div className='sm:flex md:flex'>
+                <div className='sm:flex md:flex lg:flex'>
+                    <nav className=''>
                     <button>Home</button>
                     <button>Shop</button>
                     <button>About</button>
                     <button>Blog</button>
                     <button>Contact</button>
                     <button>Pages</button>
+                    </nav>
                 </div>
                 <div className='flex'>
                     <div>
                     <button className='font-container  text-primaryColor text-sm '><FontAwesomeIcon icon={faUser} /> Login / Register</button>
                         <button className='font-container text-primaryColor text-sm'><FontAwesomeIcon icon={faMagnifyingGlass} /> </button>
-                        <button className='font-container text-primaryColor text-sm'><FontAwesomeIcon icon={faCartShopping} /> 1</button>
-                        <button className='font-container text-primaryColor text-sm'><FontAwesomeIcon icon={faHeart} /> 1</button>
+                        <button className='font-container text-primaryColor text-sm'><FontAwesomeIcon icon={faCartShopping} /> 0</button>
+                        <button className='font-container text-primaryColor text-sm'><FontAwesomeIcon icon={faHeart} /> 0</button>
                     </div>
                 </div>
             </div>
