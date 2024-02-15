@@ -16,7 +16,7 @@ export default function Header() {
         <header className={` ${isMenuVisible ? 'h-[441px]' : ''} pt-4`} >
         <div className='flex '>
             <div className='flex basis-2/5'>
-                <h3 className=' text-[24px] font-bold font- text-[#252B42] leading-8'>GGstore</h3>
+                <h3 className=' text-[24px] font-bold font- text-[#252B42] leading-8'>Bandage</h3>
             </div>
             <div className=' basis-4/5 mx-1'>
                 <nav className=' hidden sm:flex md:flex lg:flex xl:gap-4 sm:gap-2'>

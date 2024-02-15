@@ -10,7 +10,7 @@ import {
       <div className="w-screen">
         <div className="bg-[#FAFAFA] py-[60px]">
           <div className="flex justify-between w-[80%] m-auto">
-            <h3 className=" text-[24px] font-bold font- text-[#252B42] leading-8 ">GGStore</h3>
+            <h3 className=" text-[24px] font-bold font- text-[#252B42] leading-8 ">Bandage</h3>
            <div className="">
                 <FontAwesomeIcon
                 icon={faFacebook}
