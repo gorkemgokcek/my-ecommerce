@@ -7,13 +7,13 @@ function CustomSlider() {
 
   return (
     <div>
-     {/*  <style>{
+       <style>{
         `
         .carousel-item {
           height: 750px;
           object-fit: cover;
         }
-        `}</style> */}
+        `}</style> 
      <div>
         <UncontrolledCarousel
           items={[
