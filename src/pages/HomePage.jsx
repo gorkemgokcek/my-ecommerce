@@ -16,7 +16,30 @@ export default function HomePage(){
                         <button className="text-[24px] font-bold text-white bg-[#2DC071] rounded-[5px] py-3 px-2 w-[50%]">SHOP NOW</button>
                 </div>
             </div>
+
+            <div className="editor-pick py-[80px] relative">
+             <h3 className="font-bold text-[24px] leading-[32px] font-container text-[#252B42] align-middle mb-3">EDITOR'S PICK</h3>
+             <p className="text-[20px] leading-[30px] align-middle">Problems trying to resolve the conflict between. </p>
+               <div className="flex gap-3 justify-center mt-[50px] relative">
+                 <div className="flex">
+                  <img src="editor.jpeg" className="object-cover w-[500px] h-[509px]" />                 
+                </div>
+              <div className="flex">
+                <img src="editor.jpeg" className="object-cover w-[250px]  h-[509px]"/>
+              </div>
+              <div className="flex-col relative ">
+                 <div className="flex mb-2">
+                  <img src="editor.jpeg" className="object-cover w-[250px] h-[250px]" />
+              </div>
+             <div className="flex">
+                 <img src="editor.jpeg" className="object-cover w-[250px] h-[250px]" />
+          </div>
         </div>
-    
+    </div>
+            </div>
+        </div>
+
+
+
 )
 }
