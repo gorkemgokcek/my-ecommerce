@@ -30,7 +30,7 @@ export default function Header() {
             </div>
             <div className='flex basis-2/5 mx-1'>
                 <div className=' hidden  sm:flex xl:flex lg:flex md:flex gap-3 '>
-                    <button className='font-container  text-primaryColor text-sm '><FontAwesomeIcon icon={faUser} />Login / Register</button>
+                    <button className='font-container  text-primaryColor text-md'><FontAwesomeIcon icon={faUser} /> Login / Register</button>
                     <button className='font-container text-primaryColor text-md'><FontAwesomeIcon icon={faMagnifyingGlass} /> </button>
                     <button className='font-container text-primaryColor text-md'><FontAwesomeIcon icon={faCartShopping} /> </button>
                     <button className='font-container text-primaryColor text-md'><FontAwesomeIcon icon={faHeart} /> </button>

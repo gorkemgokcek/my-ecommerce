@@ -10,7 +10,7 @@ function CustomSlider() {
        <style>{
         `
         .carousel-item {
-          height: 750px;
+          height: 900px;
           object-fit: cover;
         }
         `}</style> 
