@@ -13,42 +13,32 @@ export default function Header() {
     };
 
     return (
-        <header>
-            <div className='flex'>
-                <div className='flex'>
-                    <h3 className='font-bold'>GG Store</h3>
-                </div>
-                <div className='sm:flex md:flex lg:flex'>
-                    <nav className=''>
+        <header className={` ${isMenuVisible ? 'h-[441px]' : ''} pt-4`} >
+        <div className='flex '>
+            <div className='flex basis-2/5'>
+                <h3 className=' text-[24px] font-bold font- text-[#252B42] leading-8'>GGstore</h3>
+            </div>
+            <div className=' basis-4/5 mx-1'>
+                <nav className=' hidden sm:flex md:flex lg:flex xl:gap-4 sm:gap-2'>
                     <button>Home</button>
                     <button>Shop</button>
                     <button>About</button>
                     <button>Blog</button>
                     <button>Contact</button>
-                    <button>Pages</button>
-                    </nav>
-                </div>
-                <div className='flex'>
-                    <div>
-                    <button className='font-container  text-primaryColor text-sm '><FontAwesomeIcon icon={faUser} /> Login / Register</button>
-                        <button className='font-container text-primaryColor text-sm'><FontAwesomeIcon icon={faMagnifyingGlass} /> </button>
-                        <button className='font-container text-primaryColor text-sm'><FontAwesomeIcon icon={faCartShopping} /> 0</button>
-                        <button className='font-container text-primaryColor text-sm'><FontAwesomeIcon icon={faHeart} /> 0</button>
-                    </div>
+                    <button>Team</button>
+                </nav>
+            </div>
+            <div className='flex basis-2/5 mx-1'>
+                <div className=' hidden  sm:flex xl:flex lg:flex md:flex gap-3 '>
+                    <button className='font-container  text-primaryColor text-sm '><FontAwesomeIcon icon={faUser} />Login / Register</button>
+                    <button className='font-container text-primaryColor text-md'><FontAwesomeIcon icon={faMagnifyingGlass} /> </button>
+                    <button className='font-container text-primaryColor text-md'><FontAwesomeIcon icon={faCartShopping} /> </button>
+                    <button className='font-container text-primaryColor text-md'><FontAwesomeIcon icon={faHeart} /> </button>
+                    <button onClick={toggleMenuVisb}><FontAwesomeIcon icon={faBars} /></button>
                 </div>
             </div>
-            <div>
-                <div>
-                <h3 className=' font-container xl:mx-[136px] lg:mx-[40px] md:mx-[20px] mx-[5px] text-[24px] font-bold font- text-[#252B42] leading-8 pb-2'></h3>
-                </div>
-                <div>
-                    <div>
-                    <button className='font-container text-secondaryColor text-sm'><FontAwesomeIcon icon={faMagnifyingGlass} /> </button>
-                        <button className='font-container text-secondaryColor text-sm '><FontAwesomeIcon icon={faCartShopping} /> </button>
-                        <button onClick={toggleMenuVisb} className="text-secondaryColor" ><FontAwesomeIcon icon={faBars} /></button>
-                    </div>
-                </div>
-            </div>
-        </header>
-    );
+        </div>
+
+    </header>
+);
 }
