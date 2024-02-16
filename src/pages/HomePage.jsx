@@ -12,7 +12,7 @@ export default function HomePage(){
                     </div>
                     <div><h4 className="2xl:text-xl xl:text-xl leading-[30px] ">We know how large objects will act,</h4>
                         <h4 className="2xl:text-xl xl:text-xl  leading-[30px] ">but things on a small scale.</h4></div>
-                    <div><button className="carousel-button hover:bg-white hover:text-[#2DC071]">SHOP NOW</button></div>
+                    <div><button className="text-center w-[221px] h-[62px] hover:bg-white hover:text bg-[#2DC071] rounded-[5px]">SHOP NOW</button></div>
                 </div>
               </div>
             <div className="editor-pick py-[80px] relative">
