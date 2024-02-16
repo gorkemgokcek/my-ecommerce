@@ -1,3 +1,4 @@
+import React from "react";
 import {
     faFacebook,
     faInstagram,
@@ -11,23 +12,28 @@ import {
         <div className="bg-[#FAFAFA] py-[60px]">
           <div className="flex justify-between w-[80%] m-auto">
             <h3 className=" text-[24px] font-bold font- text-[#252B42] leading-8 ">Bandage</h3>
-           <div className="">
-                <FontAwesomeIcon
+           <div className="flex gap-2">
+                <a href="https://www.facebook.com">
+                  <FontAwesomeIcon
                 icon={faFacebook}
                 style={{color: "#23A6F0"}}
                 className="text-2xl"
                 />
-         
+                </a>
+                <a href="https://www.instagram.com">
                 <FontAwesomeIcon
                 icon={faInstagram}
                 style={{color: "23A6F0"}}
                 className="text-2xl"
                 />
+                </a>
+                <a href="https://www.twitter.com">
                 <FontAwesomeIcon
                 icon={faTwitter}
                 style={{color:"23A6F0"}}
                 className="text-2xl "
                 />
+                </a>
            </div>
           </div>
         </div>
