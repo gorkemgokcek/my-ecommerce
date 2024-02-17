@@ -8,7 +8,7 @@ import {
   
   function Footer() {
     return (
-      <div className="w-screen">
+      <div className="font-montserrat justify-center w-full">
         <div className="bg-[#FAFAFA] py-[60px]">
           <div className="flex justify-between w-[80%] m-auto">
             <h3 className=" text-[24px] font-bold font- text-[#252B42] leading-8 ">Bandage</h3>
@@ -37,9 +37,9 @@ import {
            </div>
           </div>
         </div>
-        <div className="flex  pt-[3%] w-full m-auto gap-y-4 ">
+        <div className="flex flex-row px-40 justify-between ">
           <div className=" flex justify-between m-auto w-[80%] flex-wrap ">
-            <div className="flex flex-col mr-8">
+            <div className="flex flex-col gap-2 text-gray font-semibold text-base">
               <h5 className="font-bold pb-[8px]">Company İnfo</h5>
               <a className="font-mont-a py-[10px]" href="#">
                 About Us
@@ -54,7 +54,7 @@ import {
                 Blog
               </a>
             </div>
-            <div className="flex flex-col ">
+            <div className="flex flex flex-col gap-2 text-gray font-semibold text-base-col ">
               <h5 className="font-bold pb-[8px]">Legal</h5>
               <a className="font-mont-a py-[10px]" href="#">
                 About Us
@@ -69,7 +69,7 @@ import {
                 Blog
               </a>
             </div>
-            <div className="flex flex-col ">
+            <div className="flex flex-col gap-2 text-gray font-semibold text-base ">
               <h5 className="font-bold pb-[8px]">Features</h5>
               <a className="font-mont-a py-[10px]" href="#">
                 Business Marketing
@@ -84,7 +84,7 @@ import {
                 Unlimited Support
               </a>
             </div>
-            <div className="flex flex-col">
+            <div className="flex flex-col gap-2 text-gray font-semibold text-base">
               <h5 className="font-bold pb-[8px]">Resources</h5>
               <a className="font-mont-a py-[10px]" href="#">
                 IOS & Android
