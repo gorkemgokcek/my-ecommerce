@@ -11,7 +11,7 @@ import {
       <div className="font-montserrat justify-center w-full">
         <div className="bg-[#FAFAFA] py-[60px]">
           <div className="flex justify-between w-[80%] m-auto">
-            <h3 className=" text-[24px] font-bold font- text-[#252B42] leading-8 ">Bandage</h3>
+            <h3 className=" text-[24px] font-bold text-[#252B42] leading-8 ">Bandage</h3>
            <div className="flex gap-2">
                 <a href="https://www.facebook.com">
                   <FontAwesomeIcon
@@ -41,7 +41,7 @@ import {
           <div className=" flex justify-between m-auto w-[80%] flex-wrap ">
             <div className="flex flex-col gap-2 text-gray font-semibold text-base">
               <h5 className="font-bold pb-[8px]">Company İnfo</h5>
-              <a className="font-mont-a py-[10px]" href="#">
+              <a className="font-mont-a py-[10px]" href="about">
                 About Us
               </a>
               <a className="font-mont-a pb-[10px]" href="#">
