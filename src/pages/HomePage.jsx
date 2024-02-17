@@ -16,25 +16,26 @@ export default function HomePage(){
                     <div><button className="text-center w-[221px] h-[62px] hover:bg-white hover:text bg-[#2DC071] text-[20px] rounded-[5px]">SHOP NOW</button></div>
                 </div>
               </div>
-            <div className="editor-pick py-[80px] relative">
-             <h3 className="font-bold text-[24px] leading-[32px] font-container text-[#252B42] align-middle mb-3">EDITOR'S PICK</h3>
-             <p className="text-[20px] leading-[30px] align-middle">Problems trying to resolve the conflict between. </p>
+            <div className="editor-pick text-center py-[80px] relative ">
+             <h3 className="font-bold text-2xl leading-[32px]  text-[#252B42] align-middle mb-3">EDITOR'S PICK</h3>
+             <p className="text-md leading-5 align-middle">Problems trying to resolve the conflict between. </p>
                <div className="flex gap-3 justify-center mt-[50px] relative">
                  <div className="flex">
-                  <img src="editor.jpeg" className="object-cover w-[500px] h-[509px]" />
+                  <img src="man.jpeg" className="object-cover w-[500px] h-[509px]" />
                   <button className="mt-[426px] bg-white absolute w-[150px] h-[50px] z-10 font-bold text-[15px]">MEN</button>                 
                 </div>
               <div className="flex">
-                <img src="editor.jpeg" className="object-cover w-[250px]  h-[509px]"/>
+                <img src="women.jpeg" className="object-cover w-[250px] h-[509px]"/>
                 <button className="mt-[426px] bg-white absolute w-[150px] h-[50px] z-10 font-bold text-[15px]">WOMEN</button>
               </div>
               <div className="flex-col relative ">
                  <div className="flex mb-2">
-                  <img src="editor.jpeg" className="object-cover w-[250px] h-[250px]" />
-                  <button className="mt-[426px] bg-white absolute w-[150px] h-[50px] z-10 font-bold text-[15px]">KIDS</button>
+                  <img src="kids.jpeg" className="object-cover w-[250px] h-[250px]" />
+                  <button className="mt-[426px] bg-white absolute w-[150px] h-[50px] z-10 font-bold text-[15px]">ACCESSORIES</button>
+                  <button className="mt-[176px] bg-white absolute w-[150px] h-[50px] z-10 font-bold text-[15px]">KIDS</button>
               </div>
              <div className="flex">
-                 <img src="editor.jpeg" className="object-cover w-[250px] h-[250px]" />
+                 <img src="accessories.jpeg" className="object-cover w-[250px] h-[250px]" />
           </div>
         </div>
     </div>
