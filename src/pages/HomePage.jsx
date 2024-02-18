@@ -1,9 +1,10 @@
 import SliderCarousel from "../components/SliderCarousel";
 import SliderCarousel2 from "../components/SliderCarousel2";
+import ProductCards from "../components/ProductCards";
 export default function HomePage(){
     return (
         <div>
-        <div className="relative text-white hero-section">
+        <div className="relative text-white">
             <SliderCarousel />
             <div className="absolute top-0 left-0 z-10 flex flex-col xl:text-left 2xl:text-left lg:text-left md:text-left sm:text-left xl:py-[200px] lg:py-[180px] md:py-[120px] sm:py-[100px] py-[40px] gap-[1px] 2xl:gap-[24px] xl:gap-[24px] lg:gap-[18px] md:gap-[14px] sm:gap-[12px] xl:ml-[200px] 2xl:ml-[200px] lg:ml-[120px] md:ml-[80px] sm:ml-[60px] ml-[30px]">
                     <div><h5 className="font-2xl:bold 2xl:text-[16px] xl:text-[16px] lg:text-[14px] md:text-[12px] sm:text-[12px] text-[16px] font-container leading-[24px]">SUMMER 2020</h5></div>
@@ -41,7 +42,22 @@ export default function HomePage(){
     </div>
             </div>
 
-            <div className="relative text-white carousel-item2">
+            <div className="best-seller mb-10 text-center ">
+                <h4 className=" text-xl leading-[30px] align-middle mb-3">Featured Products</h4>
+                <h3 className="font-bold text-2xl leading-[32px]  text-[#252B42] mb-3">BESTSELLER PRODUCTS</h3>
+                <p className="text-sm leading-5 align-middle mb-5">Problems trying to resolve the conflict between</p>
+                <div className=" flex flex-wrap flex-row gap-3 justify-between  ">
+                    <ProductCards />
+                    <ProductCards />
+                    <ProductCards />
+                    <ProductCards />
+                    <ProductCards />
+                    
+                  
+                </div>
+            </div>
+
+            <div className="relative text-white">
                <div className="">
                 <SliderCarousel2 />
                 <div className="absolute top-0 left-0 z-10 flex flex-col xl:text-left 2xl:text-left lg:text-left md:text-left sm:text-left xl:py-[200px] lg:py-[180px] md:py-[120px] sm:py-[100px] py-[40px] gap-[1px] 2xl:gap-[24px] xl:gap-[24px] lg:gap-[18px] md:gap-[14px] sm:gap-[12px] xl:ml-[200px] 2xl:ml-[200px] lg:ml-[120px] md:ml-[80px] sm:ml-[60px] ml-[30px]">
