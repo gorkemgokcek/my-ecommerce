@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import { Link } from "react-router-dom/cjs/react-router-dom.min";
 import { faUser, faHeart } from "@fortawesome/free-regular-svg-icons";
 import { faMagnifyingGlass, faCartShopping, faBars } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -20,12 +20,12 @@ export default function Header() {
             </div>
             <div className=' basis-4/5 mx-1'>
                 <nav className=' hidden sm:flex md:flex lg:flex xl:gap-4 sm:gap-2'>
-                    <button>Home</button>
+                    <Link to="/HomePage"><button className='text-secondaryColor'>Home</button></Link>
                     <button>Shop</button>
                     <button>About</button>
                     <button>Blog</button>
                     <button>Contact</button>
-                    <button>Team</button>
+                    <Link to="/team"><button className='text-secondaryColor'>Team</button></Link>
                 </nav>
             </div>
             <div className='flex basis-2/5 mx-1'>
