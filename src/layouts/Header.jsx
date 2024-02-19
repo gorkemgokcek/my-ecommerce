@@ -20,9 +20,9 @@ export default function Header() {
             </div>
             <div className=' basis-4/5 mx-1'>
                 <nav className=' hidden sm:flex md:flex lg:flex xl:gap-4 sm:gap-2'>
-                    <Link to="/HomePage"><button className='text-secondaryColor'>Home</button></Link>
+                    <Link to="/"><button className='text-secondaryColor'>Home</button></Link>
                     <button>Shop</button>
-                    <button>About</button>
+                    <Link to="/about"><button className='text-secondaryColor'>About</button></Link>
                     <button>Blog</button>
                     <button>Contact</button>
                     <Link to="/team"><button className='text-secondaryColor'>Team</button></Link>
