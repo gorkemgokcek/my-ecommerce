@@ -4,8 +4,9 @@
   font-family: "Montserrat", "sans-serif";
 } 
 
-.footer-link{
-  @apply font-bold text-base leading-5 text-[#252B42]
+
+.footer-title{
+  @apply font-bold text-base text-[#252B42] leading-5
 }
 
 
@@ -25,3 +26,4 @@
 .third-button {
   @apply bg-blue-500 hover:bg-transparent hover:border-blue-500 
 }
+

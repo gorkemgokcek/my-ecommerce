@@ -4,7 +4,7 @@ import {
     faInstagram,
     faTwitter,
   } from "@fortawesome/free-brands-svg-icons";
-  import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
   
   function Footer() {
     return (
@@ -37,65 +37,65 @@ import {
            </div>
           </div>
         </div>
-        <div className="flex flex-row px-40 justify-between ">
-          <div className=" flex justify-between m-auto w-[80%] flex-wrap ">
-            <div className="flex flex-col gap-2 text-gray font-semibold text-base">
-              <h5 className="font-bold pb-[8px]">Company İnfo</h5>
-              <a className="font-mont-a py-[10px]" href="about">
+        <div className="w-[full] px-[50px] sm:px-[195px] py-5">
+          <div className=" flex flex-col gap-5 sm:flex-row justify-between flex-wrap">
+            <div className="flex gap-3 flex-col">
+              <h5 className="footer-title">Company İnfo</h5>
+              <a className="font-bold text-sm secondary-text leading-6" href="about">
                 About Us
               </a>
-              <a className="font-mont-a pb-[10px]" href="#">
+              <a className="font-bold text-sm secondary-text leading-6" href="#">
                 Carrier
               </a>
-              <a className="font-mont-a pb-[10px]" href="#">
+              <a className="font-bold text-sm secondary-text leading-6" href="#">
                 We are hiring
               </a>
-              <a className="font-mont-a" href="#">
+              <a className="font-bold text-sm secondary-text leading-6" href="#">
                 Blog
               </a>
             </div>
-            <div className="flex flex flex-col gap-2 text-gray font-semibold text-base-col ">
-              <h5 className="font-bold pb-[8px]">Legal</h5>
-              <a className="font-mont-a py-[10px]" href="#">
+            <div className="flex gap-3 flex-col">
+              <h5 className="footer-title">Legal</h5>
+              <a className="font-bold text-sm secondary-text leading-6" href="#">
                 About Us
               </a>
-              <a className="font-mont-a pb-[10px]" href="#">
+              <a className="font-bold text-sm secondary-text leading-6" href="#">
                 Carrier
               </a>
-              <a className="font-mont-a pb-[10px]" href="#">
+              <a className="font-bold text-sm secondary-text leading-6" href="#">
                 We are hiring
               </a>
-              <a className="font-mont-a" href="#">
+              <a className="font-bold text-sm secondary-text leading-6" href="#">
                 Blog
               </a>
             </div>
-            <div className="flex flex-col gap-2 text-gray font-semibold text-base ">
-              <h5 className="font-bold pb-[8px]">Features</h5>
-              <a className="font-mont-a py-[10px]" href="#">
+            <div className="flex gap-3 flex-col">
+              <h5 className="footer-title">Features</h5>
+              <a className="font-bold text-sm secondary-text leading-6" href="#">
                 Business Marketing
               </a>
-              <a className="font-mont-a pb-[10px]" href="#">
+              <a className="font-bold text-sm secondary-text leading-6" href="#">
                 User Analytic{" "}
               </a>
-              <a className="font-mont-a pb-[10px]" href="#">
+              <a className="font-bold text-sm secondary-text leading-6" href="#">
                 Live Chat
               </a>
-              <a className="font-mont-a" href="#">
+              <a className="font-bold text-sm secondary-text leading-6" href="#">
                 Unlimited Support
               </a>
             </div>
-            <div className="flex flex-col gap-2 text-gray font-semibold text-base">
-              <h5 className="font-bold pb-[8px]">Resources</h5>
-              <a className="font-mont-a py-[10px]" href="#">
+            <div className="flex gap-3 flex-col">
+              <h5 className="footer-title">Resources</h5>
+              <a className="font-bold text-sm secondary-text leading-6" href="#">
                 IOS & Android
               </a>
-              <a className="font-mont-a pb-[10px]" href="#">
+              <a className="font-bold text-sm secondary-text leading-6" href="#">
                 Watch a Demo{" "}
               </a>
-              <a className="font-mont-a pb-[10px]" href="#">
+              <a className="font-bold text-sm secondary-text leading-6" href="#">
                 Customers
               </a>
-              <a className="font-mont-a" href="#">
+              <a className="font-bold text-sm secondary-text leading-6" href="#">
                 API
               </a>
             </div>

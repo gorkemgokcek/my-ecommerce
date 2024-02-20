@@ -13,7 +13,11 @@ export default function Header() {
     };
 
     return (
+
         <header className={` ${isMenuVisible ? 'h-[441px]' : ''} pt-4`} >
+            <div>
+          
+            </div>
         <div className='flex '>
             <div className='flex basis-2/5'>
                 <h3 className=' text-[24px] font-bold font- text-[#252B42] leading-8'>Bandage</h3>
@@ -24,7 +28,7 @@ export default function Header() {
                     <button>Shop</button>
                     <Link to="/about"><button className='text-secondaryColor'>About</button></Link>
                     <button>Blog</button>
-                    <button>Contact</button>
+                    <Link to="/contact"><button className="text-secondaryColor">Contact</button></Link>
                     <Link to="/team"><button className='text-secondaryColor'>Team</button></Link>
                 </nav>
             </div>
@@ -38,7 +42,7 @@ export default function Header() {
                 </div>
             </div>
         </div>
-
     </header>
+    
 );
 }
