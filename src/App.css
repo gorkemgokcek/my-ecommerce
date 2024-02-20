@@ -24,6 +24,6 @@
 }
 
 .third-button {
-  @apply bg-blue-500 hover:bg-transparent hover:border-blue-500 
+  @apply bg-blue-500 hover:bg-transparent hover:border-blue-500 text-white w-[123px] h-[52px] 
 }
 

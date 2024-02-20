@@ -89,7 +89,7 @@ export default function AboutPage() {
                     <h5 className="text-sm font-bold text-white leading-6">WORK WITH US</h5>
                     <h2 className="font-bold leading-[50px] text-[40px] text-white">Now Let’s grow Yours</h2>
                     <p className="text-sm leading-5 text-white">The gradual accumulation of information about atomic and small-scale behavior during the first quarter of the 20th </p>
-                    <div><button className=" third-button ">Button</button></div>
+                    <div><button className=" third-button border-white border-1 rounded-[5px]">Button</button></div>
                 </div>
                 <div className="justify-end flex items-end">
                     <img src="women.jpeg" className="md:w-[590px] w-full h-[640px] hidden md:flex " />
