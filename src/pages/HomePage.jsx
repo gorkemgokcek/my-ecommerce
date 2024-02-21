@@ -86,8 +86,8 @@ export default function HomePage() {
                             <h2 className="font-bold text-[30px] font-container">Part of the Neural Universe</h2>
                             <div className="text-gray-600 text-lg ">We know how large objects will act, but things on a small scale.</div>
                             <div className="">
-                            <Link to="/"><button className="button first-button ">BUY NOW</button></Link>
-                                <Link to="/"> <button className="button second-button ">READ MORE</button></Link>
+                            <Link to="/products"><button className="button first-button ">BUY NOW</button></Link>
+                                <Link to="/team"> <button className="button second-button ">READ MORE</button></Link>
                             </div>
                         </div>
                     </div>
