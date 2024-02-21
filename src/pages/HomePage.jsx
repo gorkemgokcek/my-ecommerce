@@ -69,9 +69,11 @@ export default function HomePage() {
                             <h1 className="font-bold xl:text-[58px] 2xl:text-[58px] lg:text-[40px] md:text-[32px] sm:text-[28px] text-[40px] font-container leading-[80px]">Product</h1>
 
                         </div>
-                        <div><h4 className="2xl:text-[20px] xl:text-[20px] lg:text-[18px] md:text-[16px] sm:text-[14px] text-[20px] leading-[30px] font-container">We know how large objects will act,</h4>
+                        <div>
+                            <h4 className="2xl:text-[20px] xl:text-[20px] lg:text-[18px] md:text-[16px] sm:text-[14px] text-[20px] leading-[30px] font-container">We know how large objects will act,</h4>
                             <h4 className="2xl:text-[20px] xl:text-[20px] lg:text-[18px] md:text-[16px] sm:text-[14px] text-[20px] leading-[30px] font-container">but things on a small scale.</h4></div>
-                        <div><button className="text-center w-[221px] h-[62px] hover:text bg-[#2DC071]  hover:bg-[#23856D] text-[20px] rounded-[5px]">ADD TO CART</button></div>
+                            <h3 className=" text-white  text-2xl leading-8 font-bold mr-0 sm:mr-10 ">$16.48</h3>
+                        <button className="text-center w-[221px] h-[62px] hover:text bg-[#2DC071]  hover:bg-[#23856D] text-[20px] rounded-[5px]">ADD TO CART</button>
                     </div>
                 </div>
             </div>
@@ -94,6 +96,7 @@ export default function HomePage() {
                 </div>
                 <div className="featured-post pb-5 ">
                 <div className="flex flex-col items-center flex-wrap gap-3 ">
+                <h6 className="font-bold text-sm leading-6  text-[#23A6F0]">Practice Advice</h6>
                     <h2 className="text-5xl font-bold text-[40px] leading-[50px] text-[#252B42]">Featured Posts</h2>
                     <p className="text-[#737373] text-sm leading-5 w-[369px] text-center">Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics </p>
                 </div>
