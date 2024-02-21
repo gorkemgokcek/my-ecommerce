@@ -12,8 +12,6 @@ export default function Team() {
                 <TeamCard />
                 <TeamCard />
                 <TeamCard />
-                <TeamCard />
-                
             </div>
         </div>
     )

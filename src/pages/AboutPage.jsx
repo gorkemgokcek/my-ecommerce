@@ -2,10 +2,11 @@
 import { faAws, faStripe, faLyft, faPiedPiperHat, faRedditAlien, faHooli } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
+
 export default function AboutPage() {
-   
- 
-    
+
+
+
     return (
         <div className="mt-5 ">
             <div>
@@ -62,10 +63,13 @@ export default function AboutPage() {
 
                     </div>
                 </div>
+                <div className="relative justify-center flex ">
+                    <img src="video.jpeg" className="w-[500px]  lg:w-[989px] md:w-[600px] sm:w-[600px] shadow-[10px] rounded-[20px]" />
+                </div>
 
             </div>
             <div className="px-[50px] lg:px-[255px] pt-5">
-              
+
 
             </div>
             <div className="pt-5 bg-[#FAFAFA] pb-5 ">
@@ -89,7 +93,7 @@ export default function AboutPage() {
                     <h5 className="text-sm font-bold text-white leading-6">WORK WITH US</h5>
                     <h2 className="font-bold leading-[50px] text-[40px] text-white">Now Let’s grow Yours</h2>
                     <p className="text-sm leading-5 text-white">The gradual accumulation of information about atomic and small-scale behavior during the first quarter of the 20th </p>
-                    <div><button className=" third-button border-white border-1 rounded-[5px]">Button</button></div>
+                    <div><button className="third-button border-white border-1 rounded-[5px]">Button</button></div>
                 </div>
                 <div className="justify-end flex items-end">
                     <img src="women.jpeg" className="md:w-[590px] w-full h-[640px] hidden md:flex " />
@@ -98,4 +102,4 @@ export default function AboutPage() {
 
         </div>
     )
-    };
+};

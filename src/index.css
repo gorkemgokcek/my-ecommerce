@@ -9,6 +9,23 @@
     font-family: "Montserrat", sans-serif;
   }
 
+ 
+@media screen and (max-width:1940px) {
+  .carousel-item img {
+    height: 1500px;
+    object-fit: cover;
+  }
+
+  .carousel-item2 img {
+    height: 750px;
+    object-fit: contain;
+    margin-left: 300px;
+    margin-top: 120px;
+  }
+}
+
+  
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

@@ -59,7 +59,7 @@ export default function HomePage() {
                 </div>
             </div>
 
-            <div className="relative text-white mb-5  height: 750px object-fit: contain margin-left: 300px margin-top: 120px">
+            <div className="relative text-white carousel-item2 mb-5">
                 <div className="">
                     <SliderCarousel2 />
                     <div className="absolute top-[10px] left-[10px] sm:top-[180px] lg:left-[240px] z-10 flex flex-col text-left gap-4 carousel-2 w-[300px] md:w-[400px]">
