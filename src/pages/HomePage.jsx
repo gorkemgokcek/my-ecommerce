@@ -16,7 +16,7 @@ export default function HomePage() {
                     </div>
                     <div><h4 className="2xl:text-xl xl:text-xl leading-[30px] ">We know how large objects will act,</h4>
                         <h4 className="2xl:text-xl xl:text-xl  leading-[30px] ">but things on a small scale.</h4></div>
-                    <div><button className="text-center w-[221px] h-[62px] hover:text hover:bg-[#23856D] bg-[#2DC071] text-[20px] rounded-[5px]">SHOP NOW</button></div>
+                    <Link to="/products"><div><button className="text-center w-[221px] h-[62px] hover:text hover:bg-[#23856D] bg-[#2DC071] text-[20px] rounded-[5px]">SHOP NOW</button></div></Link>
                 </div>
             </div>
             <div className="editor-pick text-center py-[80px] relative ">
@@ -86,7 +86,7 @@ export default function HomePage() {
                             <h2 className="font-bold text-[30px] font-container">Part of the Neural Universe</h2>
                             <div className="text-gray-600 text-lg ">We know how large objects will act, but things on a small scale.</div>
                             <div className="">
-                            <Link to="/productpage"><button className="button first-button ">BUY NOW</button></Link>
+                            <Link to="/"><button className="button first-button ">BUY NOW</button></Link>
                                 <Link to="/"> <button className="button second-button ">READ MORE</button></Link>
                             </div>
                         </div>
