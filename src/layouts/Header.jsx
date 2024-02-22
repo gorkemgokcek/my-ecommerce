@@ -20,7 +20,7 @@ export default function Header() {
             </div>
         <div className='flex '>
             <div className='flex basis-2/5'>
-                <h3 className=' text-[24px] font-bold font- text-[#252B42] leading-8'>Bandage</h3>
+                <h3 className=' text-[24px] font-bold font- text-primarycolor leading-8'>Bandage</h3>
             </div>
             <div className=' basis-4/5 mx-1'>
                 <nav className=' hidden sm:flex md:flex lg:flex xl:gap-4 sm:gap-2'>
@@ -33,12 +33,12 @@ export default function Header() {
                 </nav>
             </div>
             <div className='flex basis-2/5 mx-1'>
-                <div className=' hidden  sm:flex xl:flex lg:flex md:flex gap-3 '>
-                    <button className='font-container  text-primaryColor text-md'><FontAwesomeIcon icon={faUser} /> Login / Register</button>
-                    <button className='font-container text-primaryColor text-md'><FontAwesomeIcon icon={faMagnifyingGlass} /> </button>
-                    <button className='font-container text-primaryColor text-md'><FontAwesomeIcon icon={faCartShopping} /> </button>
-                    <button className='font-container text-primaryColor text-md'><FontAwesomeIcon icon={faHeart} /> </button>
-                    <button onClick={toggleMenuVisb}><FontAwesomeIcon icon={faBars} /></button>
+                <div className=' hidden  sm:hidden xl:flex lg:flex md:flex gap-3 '>
+                    <button className='font-container text-[#45b3e7] text-md'><FontAwesomeIcon icon={faUser} /> Login / Register</button>
+                    <button className='font-container text-[#45b3e7] text-md'><FontAwesomeIcon icon={faMagnifyingGlass} /> </button>
+                    <button className='font-container text-[#45b3e7] text-md'><FontAwesomeIcon icon={faCartShopping} /> </button>
+                    <button className='font-container text-[#45b3e7] text-md'><FontAwesomeIcon icon={faHeart} /> </button>
+                    {/* <button onClick={toggleMenuVisb}><FontAwesomeIcon icon={faBars} /></button> */}
                 </div>
             </div>
         </div>
