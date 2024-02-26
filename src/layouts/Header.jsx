@@ -34,11 +34,13 @@ export default function Header() {
             </div>
             <div className='flex basis-2/5 mx-1'>
                 <div className=' hidden  sm:hidden xl:flex lg:flex md:flex gap-3 '>
-                    <button className='font-container text-[#45b3e7] text-md'><FontAwesomeIcon icon={faUser} /> Login / Register</button>
-                    <button className='font-container text-[#45b3e7] text-md'><FontAwesomeIcon icon={faMagnifyingGlass} /> </button>
-                    <button className='font-container text-[#45b3e7] text-md'><FontAwesomeIcon icon={faCartShopping} /> </button>
-                    <button className='font-container text-[#45b3e7] text-md'><FontAwesomeIcon icon={faHeart} /> </button>
-                    {/* <button onClick={toggleMenuVisb}><FontAwesomeIcon icon={faBars} /></button> */}
+                    <Link to='/login'><button className='font-container text-[#23A6F0] text-md'><FontAwesomeIcon icon={faUser} /> Login / Register</button></Link>
+                    <button className='font-container text-[#23A6F0] text-md'><FontAwesomeIcon icon={faMagnifyingGlass} /> </button>
+                    <button className='font-container text-[#23A6F0] text-md'><FontAwesomeIcon icon={faCartShopping} /> </button>
+                    <button className='font-container text-[#23A6F0] text-md'><FontAwesomeIcon icon={faHeart} /> </button>
+                    <button className='text-[#23A6F0]' onClick={toggleMenuVisb}><FontAwesomeIcon icon={faBars} /></button>
+                  
+                
                 </div>
             </div>
         </div>

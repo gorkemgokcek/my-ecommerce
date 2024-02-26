@@ -1,42 +1,101 @@
-import { faFacebook, faInstagram, faLinkedin, faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { useForm } from "react-hook-form";
+import {
+  faFacebook,
+  faInstagram,
+  faLinkedin,
+  faTwitter,
+} from "@fortawesome/free-brands-svg-icons";
 
-export default function Contact() {
-    const { register, handleSubmit, formState: { errors } } = useForm();
 
-    const onSubmit = (data) => {
-        console.log(data);
-    };
-
-    const showForm = () => {
-        document.getElementById('contactForm').classList.remove('hidden');
-    };
-
-    return (
-        <div className="my-20 px-[10px] lg:px-[250px]">
-            <div className="flex flex-col items-center gap-4 ">
-                <h2 className="font-bold text-[40px] leading-10 md:w-[607px] w-[307px] text-center">Get answers to all your questions.</h2>
-                <h4 className="text-secondaryColor text-xl leading-8 md:w-[607px] w-[307px] text-center">Problems trying to resolve the conflict between the two major realms of Classical physics: </h4>
-                <button onClick={showForm} className="text-center w-[221px] h-[62px] hover:text text-white hover:bg-[#010B48] bg-[#23A6F0] text-[14px] rounded-[5px]">CONTACT OUR COMPANY</button>
-                <div className="flex flex-row gap-3">
-                    <button><FontAwesomeIcon icon={faTwitter} size="lg" style={{ color: "#23A6F0" }} /></button>
-                    <button ><FontAwesomeIcon icon={faFacebook} size="lg" style={{ color: "#23A6F0" }} /></button>
-                    <button><FontAwesomeIcon icon={faInstagram} size="lg" style={{ color: "#23A6F0" }} /></button>
-                    <button><FontAwesomeIcon icon={faLinkedin} size="lg" style={{ color: "#23A6F0" }} /></button>
-                </div>
-                <form id="contactForm" className="hidden" onSubmit={handleSubmit(onSubmit)}>
-                    <div className="flex-col flex bg-[#F9F9F9] w-[607px] p-20 gap-5">
-                        <input {...register("name", { required: true })} type="text" placeholder="Name" className="p-2 rounded-xl" /> 
-                        {errors.name && <span>Bu Alan Boş Bırakılamaz</span>}                       
-                        <input {...register("email", { required: true })} type="email" placeholder="Email" className="p-2 rounded-xl" /> 
-                        {errors.name && <span>Email Adresinizi Giriniz</span>}                    
-                        <input {...register("message", { required: true })} type="text" placeholder="Message" className="p-2 rounded-xl" />
-                        {errors.name && <span>Bu Alan Boş Bırakılamaz</span>}
-                        <button type="submit" className="text-center w-[221px] h-[62px] hover:text text-white hover:bg-[#010B48] bg-[#23A6F0] text-[20px] rounded-[5px]">Submit</button>
-                    </div>
-                </form>
-            </div>
+const Contact = () => {
+  return (
+    <div>
+      <div className="flex items-center max-w-[1400px] mx-auto pl-[100px]">
+        <div className="flex flex-col gap-[35px] items-start">
+          <h5 className="text-[#252B42] text-base font-bold">CONTACT US</h5>
+          <h1 className="ext-[#252B42] text-[58px] font-bold">Get in touch today!</h1>
+          <h4 className=" w-[65%] text-neutral-500 text-xl font-normal">
+            We know how large objects will act, but things on a small scale
+          </h4>
+          <p className="text-[#252B42] text-2xl font-bold">Phone ; +451 215 215 </p>
+          <p className="text-[#252B42] text-2xl font-bold">Fax : +451 215 215</p>
+          <div className="text-4xl flex sm:justify-center gap-8">
+            <a href="#" className="hover:scale-110">
+              <FontAwesomeIcon icon={faTwitter} />
+            </a>
+            <a href="#" className="hover:scale-110">
+              <FontAwesomeIcon icon={faFacebook} />
+            </a>
+            <a href="#" className="hover:scale-110">
+              <FontAwesomeIcon icon={faInstagram} />
+            </a>
+            <a href="#" className="hover:scale-110">
+              <FontAwesomeIcon icon={faLinkedin} />
+            </a>
+          </div>
         </div>
-    )
-}
+        <img src="public/contactfamily.jpeg" />
+      </div>
+      <div className="flex flex-col items-center gap-10 px-5 my-4 py-8 ">
+        <p className="text-center text-slate-800 text-base font-bold font-['Montserrat']  tracking-tight">
+          VISIT OUR OFFICE
+        </p>
+        <h3 className="text-center text-slate-800 text-5xl font-bold font-['Montserrat']  tracking-tight max-w-2xl  ">
+          We help small businesses with big ideas
+        </h3>
+      </div>
+      <div className="flex flex-wrap justify-center  gap-10 pt-32 pb-20 font-montserrat sm:bg-[#FAFAFA]">
+        <div className="py-20 flex flex-col items-center gap-2 p-14 bg-white">
+          <img src="public/telephone.svg"></img>
+          <p className="text-center text-slate-800 text-base font-bold font-['Montserrat']  tracking-tight">
+            georgia.young@example.com
+          </p>
+          <p className="text-center text-slate-800 text-base font-bold font-['Montserrat']  tracking-tight">
+            georgia.young@ple.com
+          </p>
+          <p className="text-center text-slate-800 text-lg font-bold font-['Montserrat']  tracking-tight pt-5 pb-2">
+            Get Support
+          </p>
+         
+        </div>
+        <div className="py-20 flex flex-col items-center gap-2 p-14 bg-[#252B42] text-white">
+          <img src="public/location.svg"></img>
+          <p className="text-center text-slate-800 text-base font-bold tracking-tight">
+            georgia.young@example.com
+          </p>
+          <p className="text-center text-slate-800 text-base font-bold tracking-tight">
+            georgia.young@ple.com
+          </p>
+          <p className="text-center text-slate-800 text-lg font-bold tracking-tight pt-5 pb-2">
+            Get Support
+          </p>
+          
+        </div>
+        <div className="py-20 flex flex-col items-center gap-2 p-14 bg-white  ">
+          <img src="public/mail.svg"></img>
+          <p className="text-center text-slate-800 text-base font-bold tracking-tight">
+            georgia.young@example.com
+          </p>
+          <p className="text-center text-slate-800 text-base font-bold tracking-tight">
+            georgia.young@ple.com
+          </p>
+          <p className="text-center text-slate-800 text-lg font-bold tracking-tight pt-5 pb-2">
+            Get Support
+          </p>
+          
+        </div>
+      </div>
+      <div className="flex flex-col gap-10 items-center px-[15%] py-20 font-montserrat">
+        <img src="public/arrow.svg" />
+        <p className=" text-center text-slate-800 text-lg font-bold">
+          WE Can't WAIT TO MEET YOU
+        </p>
+        <p className="text-center text-slate-800 text-6xl font-bold leading-[58px] max-w-md">
+          Let’s Talk
+        </p>
+        <button className='bg-[#23A6F0] hover:bg-blue-600 px-[45px] py-[20px] text-white text-md font-bold rounded mb-[90px]'>TRY IT FREE NOW</button>
+      </div>
+    </div>
+  );
+};
+export default Contact;
