@@ -27,9 +27,12 @@ export default function Contact() {
                 </div>
                 <form id="contactForm" className="hidden" onSubmit={handleSubmit(onSubmit)}>
                     <div className="flex-col flex bg-[#F9F9F9] w-[607px] p-20 gap-5">
-                        <input {...register("name", { required: true })} type="text" placeholder="Name" className="p-2 rounded-xl" />                        
-                        <input {...register("email", { required: true })} type="email" placeholder="Email" className="p-2 rounded-xl" />                     
+                        <input {...register("name", { required: true })} type="text" placeholder="Name" className="p-2 rounded-xl" /> 
+                        {errors.name && <span>Bu Alan Boş Bırakılamaz</span>}                       
+                        <input {...register("email", { required: true })} type="email" placeholder="Email" className="p-2 rounded-xl" /> 
+                        {errors.name && <span>Email Adresinizi Giriniz</span>}                    
                         <input {...register("message", { required: true })} type="text" placeholder="Message" className="p-2 rounded-xl" />
+                        {errors.name && <span>Bu Alan Boş Bırakılamaz</span>}
                         <button type="submit" className="text-center w-[221px] h-[62px] hover:text text-white hover:bg-[#010B48] bg-[#23A6F0] text-[20px] rounded-[5px]">Submit</button>
                     </div>
                 </form>
