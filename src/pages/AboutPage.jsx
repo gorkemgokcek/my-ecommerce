@@ -1,6 +1,7 @@
 
 import { faAws, faStripe, faLyft, faPiedPiperHat, faRedditAlien, faHooli } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import TeamCard from "../components/TeamCard";
 
 
 export default function AboutPage() {
@@ -16,7 +17,7 @@ export default function AboutPage() {
                         <h5 className="font-bold text-base leading-6 text-[#252B42]">ABOUT COMPANY</h5>
                         <h1 className="font-bold text-6xl leading-[80px] text-[#252B42]">ABOUT US</h1>
                         <h4 className="text-xl text-secondaryColor leading-7">We know how large objects will act, but things on a small scale</h4>
-                        <div><button className="bg-primaryColor px-4 py-2 rounded-md text-white w-[193px] h-[52px] ">Get Quote Now</button></div>
+                        <button className="text-white text-sm font-bold px-[40px] hover:bg-blue-600 py-[15px] rounded-[5px] bg-[#23A6F0]">Get Quote Now</button>
                     </div>
                     <div className="basis-2/3 mb-5 ">
                         <button className="rounded-full bg-[#977DF4] w-[9px] h-[9px] sm:absolute relative lg:top-[190px] top-[80px] sm:top-[450px] lg:left-[79%] left-[78%]  sm:left-[68%] transform translate-x-[-50%] lg:flex sm:hidden flex z-10"></button>
@@ -66,6 +67,17 @@ export default function AboutPage() {
                 <div className="relative justify-center flex ">
                     <img src="video.jpeg" className="w-[500px]  lg:w-[989px] md:w-[600px] sm:w-[600px] shadow-[10px] rounded-[20px]" />
                 </div>
+                <div className="flex-col flex items-center mt-10 pb-10">
+            <div className="w-[400px] mb-5 flex flex-col gap-3">
+                <h2 className="font-bold text-4xl text-center">Meet Our Team</h2>
+                <p className="text-md leading-5 text-secondaryColor text-center">Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics</p>
+            </div>
+            <div className="flex flex-col md:flex-row gap-4 flex-wrap">
+                <TeamCard />
+                <TeamCard />
+                <TeamCard />
+            </div>
+        </div>
 
             </div>
             <div className="px-[50px] lg:px-[255px] pt-5">
