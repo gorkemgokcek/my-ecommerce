@@ -27,14 +27,16 @@ export default function Header() {
                     <Link to="/"><button className='text-secondaryColor'>Home</button></Link>
                     <Link to="/products"><button className='text-secondaryColor'>Shop</button></Link>
                     <Link to="/about"><button className='text-secondaryColor'>About</button></Link>
-                    <button>Blog</button>
+                    <Link to="/"><button>Blog</button></Link>
                     <Link to="/contact"><button className="text-secondaryColor">Contact</button></Link>
                     <Link to="/team"><button className='text-secondaryColor'>Team</button></Link>
                 </nav>
             </div>
             <div className='flex basis-2/5 mx-1'>
                 <div className=' hidden  sm:hidden xl:flex lg:flex md:flex gap-3 '>
-                    <Link to='/login'><button className='font-container text-[#23A6F0] text-md'><FontAwesomeIcon icon={faUser} /> Login / Register</button></Link>
+                    <Link to='/'><button className='font-container text-[#23A6F0] text-md'><FontAwesomeIcon icon={faUser} /> Login </button></Link>
+                    <a className=''>/</a>
+                    <Link to='/signup'><button className='font-container text-[#23A6F0] text-md'> Register </button></Link>
                     <button className='font-container text-[#23A6F0] text-md'><FontAwesomeIcon icon={faMagnifyingGlass} /> </button>
                     <button className='font-container text-[#23A6F0] text-md'><FontAwesomeIcon icon={faCartShopping} /> </button>
                     <button className='font-container text-[#23A6F0] text-md'><FontAwesomeIcon icon={faHeart} /> </button>

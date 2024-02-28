@@ -25,17 +25,17 @@ export default function HomePage() {
                 <div className="flex gap-3 justify-center mt-[50px] relative">
                     <div className="flex">
                         <img src="man.jpeg" className="object-cover w-[500px] h-[509px]" />
-                        <button className="mt-[426px] bg-white absolute w-[150px] h-[50px] z-10 font-bold text-[15px]">MEN</button>
+                        <button className="absolute bottom-0 mb-4 ml-6 px-16 py-3 font-bold tracking-normal bg-white text-black shadow-xl hover:opacity-80">MEN</button>
                     </div>
                     <div className="flex">
                         <img src="women.jpeg" className="object-cover w-[250px] h-[509px]" />
-                        <button className="mt-[426px] bg-white absolute w-[150px] h-[50px] z-10 font-bold text-[15px]">WOMEN</button>
+                        <button className="absolute bottom-0 mb-4 ml-6 px-16 py-3 font-bold tracking-normal bg-white text-black shadow-xl hover:opacity-80">WOMEN</button>
                     </div>
                     <div className="flex-col relative ">
                         <div className="flex mb-2">
                             <img src="kids.jpeg" className="object-cover w-[250px] h-[250px]" />
-                            <button className="mt-[426px] bg-white absolute w-[150px] h-[50px] z-10 font-bold text-[15px]">ACCESSORIES</button>
-                            <button className="mt-[176px] bg-white absolute w-[150px] h-[50px] z-10 font-bold text-[15px]">KIDS</button>
+                            <button className="mt-[426px] bg-white absolute w-[150px] h-[50px] z-10 font-bold text-[15px] hover:opacity-80">ACCESSORIES</button>
+                            <button className="mt-[176px] bg-white absolute w-[150px] h-[50px] z-10 font-bold text-[15px] hover:opacity-80">KIDS</button>
                         </div>
                         <div className="flex">
                             <img src="accessories.jpeg" className="object-cover w-[250px] h-[250px]" />

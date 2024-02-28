@@ -7,6 +7,7 @@ import AboutPage from './pages/AboutPage';
 import ProductPage from './pages/ProductPage';
 import ContactPage from './pages/ContactPage';
 import Team from "./pages/TeamPage"
+import SignUp from './pages/SignUpPage';
 
 
 function App() {
@@ -29,11 +30,15 @@ function App() {
                 <Route path="/contact" exact>
                     <ContactPage />
                 </Route>
+                <Route>
+                    <SignUp />
+                </Route>
             </Switch>
             <Footer />
         </div>
     );
 }
+import SignUpPage from './pages/SignUpPage';
 
 export default App;
 

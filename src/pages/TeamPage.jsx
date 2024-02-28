@@ -24,7 +24,6 @@ export default function Team() {
                 <TeamCard />
                 <TeamCard />
                 <TeamCard />
-                <TeamCard />
             </div>
             <div className="container mx-auto text-center my-[5rem] flex flex-col gap-[2rem] sm:w-11/12">
         <h2 className="text-center text-slate-800 text-4xl font-bold font-['Montserrat']  tracking-tight xl:text-5xl">
