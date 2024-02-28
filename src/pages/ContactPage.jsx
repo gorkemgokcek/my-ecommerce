@@ -5,7 +5,7 @@ import {
   faLinkedin,
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
-
+import  { Link } from "react-router-dom/cjs/react-router-dom.min";
 
 const Contact = () => {
   return (
@@ -20,16 +20,16 @@ const Contact = () => {
           <p className="text-[#252B42] text-2xl font-bold">Phone ; +451 215 215 </p>
           <p className="text-[#252B42] text-2xl font-bold">Fax : +451 215 215</p>
           <div className="text-4xl flex sm:justify-center gap-8">
-            <a href="#" className="hover:scale-110">
+            <a href="https://www.twitter.com" className="hover:scale-110">
               <FontAwesomeIcon icon={faTwitter} />
             </a>
-            <a href="#" className="hover:scale-110">
+            <a href="https://www.facebook.com" className="hover:scale-110">
               <FontAwesomeIcon icon={faFacebook} />
             </a>
-            <a href="#" className="hover:scale-110">
+            <a href="https://wwww.instagram.com" className="hover:scale-110">
               <FontAwesomeIcon icon={faInstagram} />
             </a>
-            <a href="#" className="hover:scale-110">
+            <a href="https://www.linkedin.com" className="hover:scale-110">
               <FontAwesomeIcon icon={faLinkedin} />
             </a>
           </div>
@@ -58,15 +58,15 @@ const Contact = () => {
           </p>
          
         </div>
-        <div className="py-20 flex flex-col items-center gap-2 p-14 bg-[#252B42] text-white">
+        <div className="py-20 flex flex-col items-center gap-2 p-14 bg-[#252B42] ">
           <img src="public/location.svg"></img>
-          <p className="text-center text-slate-800 text-base font-bold tracking-tight">
+          <p className="text-center text-slate-800 text-white text-base font-bold tracking-tight">
             georgia.young@example.com
           </p>
-          <p className="text-center text-slate-800 text-base font-bold tracking-tight">
+          <p className="text-center text-white text-slate-800 text-base font-bold tracking-tight">
             georgia.young@ple.com
           </p>
-          <p className="text-center text-slate-800 text-lg font-bold tracking-tight pt-5 pb-2">
+          <p className="text-center text-white text-slate-800 text-lg font-bold tracking-tight pt-5 pb-2">
             Get Support
           </p>
           
