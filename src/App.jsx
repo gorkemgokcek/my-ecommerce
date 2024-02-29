@@ -8,7 +8,8 @@ import ProductPage from './pages/ProductPage';
 import ContactPage from './pages/ContactPage';
 import Team from "./pages/TeamPage"
 import SignUp from './pages/SignUpPage';
-
+import Login from './pages/LoginPage';
+import Pricing from './pages/Pricing';
 
 function App() {
     return (
@@ -27,18 +28,23 @@ function App() {
                 <Route path="/Team" exact>
                     <Team />
                 </Route>
+                <Route path="/pricing" exact>
+                    <Pricing />
+                </Route>
                 <Route path="/contact" exact>
                     <ContactPage />
                 </Route>
-                <Route>
+                <Route path="/signup" exact >
                     <SignUp />
+                </Route>
+                <Route path="/login" exact>
+                    <Login />
                 </Route>
             </Switch>
             <Footer />
         </div>
     );
 }
-import SignUpPage from './pages/SignUpPage';
 
 export default App;
 

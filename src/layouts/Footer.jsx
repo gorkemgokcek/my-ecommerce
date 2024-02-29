@@ -115,7 +115,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
                   />
                   <button
                     type="submit"
-                    className="bg-[#23A6F0] text-white rounded-r-md px-4 py-2 hover:bg-blue-600 focus:outline-none focus:ring focus:border-blue-300"
+                    className="bg-[#23A6F0] text-white rounded-r-md font-bold px-4 py-2 hover:bg-blue-600 focus:outline-none focus:ring focus:border-blue-300"
                   >
                     Subscribe
                   </button>

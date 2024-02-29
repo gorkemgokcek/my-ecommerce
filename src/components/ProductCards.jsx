@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCartShopping, faEye, faStar, faDownload, faChartArea, faChartLine, faChevronRight } from "@fortawesome/free-solid-svg-icons";
-import { faHeart, faClock } from "@fortawesome/free-regular-svg-icons";
+import { faStar, faDownload, faChartArea, faChartLine, faChevronRight } from "@fortawesome/free-solid-svg-icons";
+import  { faClock } from "@fortawesome/free-regular-svg-icons";
 
 
 export default function ProductCards() {
@@ -11,14 +11,15 @@ export default function ProductCards() {
                {/*  sale button and cartshopping icon add */}
                 <div className="flex-col text-left m-3">
                     <div className="flex justify-between mb-3">
-                        <h4 className="primary-text text-sm  leading-6 font-bold">English Departement</h4>
+                        <h4 className="primary-text text-sm  leading-6 font-bold">English Department</h4>
                         <button className="w-[50px] h-[26px] bg-[#252B42] text-white  text-xs leading-[16px] rounded-xl hover:bg-gray-400"><FontAwesomeIcon icon={faStar} style={{ color: "yellow" }} /> 4.9</button>
                     </div>
                     <h5 className="text-[16px] leading-6  font-bold text[#252B42] mb-3">Graphic Design</h5>
                     <p className="text-sm leading-5  secondary-text text- mr-3 mb-3">We focus on ergonomics and meeting you where you work. It's only a keystroke away.</p>
-                    <h6 className="font-bol text-sm leading-6  secondary-text  mb-3 font-bold"><FontAwesomeIcon icon={faDownload} /> 15 Sales</h6>
+                    <h6 className="font-bol text-sm leading-6  secondary-text  mb-3 font-bold"><FontAwesomeIcon icon={faDownload} /> %15 Sales</h6>
                     <div className="flex gap-1 mb-3">
-                        <h5 className="text-[#23856D] text-[16px] leading-6  font-bold">$16.48</h5>
+                        <h5 className="text-[#909090] text-[16px] leading-6 font-bold">$16.48</h5>
+                        <h6 className="text-gray text-[16px] leading-6 font-bold">$14.02</h6>
                     </div>
                     <div className="flex gap-1 mb-3">
                         <button className="p-2 rounded-full bg-[#23A6F0]"></button>

@@ -121,7 +121,7 @@ const SignUp = () => {
               type="text"
               placeholder="Name"
               {...register("name", { required: true, min: 3 })}
-              className=" p-2 border w-full rounded-md focus:outline-none focus:border-turquoise"
+              className="block w-full px-4 py-2 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
             />
           </div>
           {errors.name && errors.name.type === "required" && (
@@ -148,7 +148,7 @@ const SignUp = () => {
                 required: true,
                 pattern: /^\S+@\S+$/i,
               })}
-              className="w-full p-2 border rounded-md focus:outline-none focus:border-turquoise"
+              className="block w-full px-4 py-2 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
             />
           </div>
           {errors.email && errors.email.type === "required" && (
@@ -174,7 +174,7 @@ const SignUp = () => {
                 pattern:
                   /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%^&*()_+}{"':;?/>.<,]).{8,}$/,
               })}
-              className="w-full p-2 border rounded-md focus:outline-none focus:border-turquoise"
+              className="block w-full px-4 py-2 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
             />
           </div>
           {errors.password && errors.password.type === "required" && (
@@ -200,7 +200,7 @@ const SignUp = () => {
               />
             </a>
             <input
-              className="w-full p-2 border rounded-md focus:outline-none focus:border-turquoise"
+              className="block w-full px-4 py-2 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
               type="password"
               placeholder="Confirm Password"
               {...register("confirmPassword", {
@@ -223,7 +223,7 @@ const SignUp = () => {
                   />
                 </a>
                 <input
-                  className="w-full py-4 px-2 border rounded-md focus:outline-none focus:border-turquoise"
+                  className="block w-full px-4 py-2 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
                   type="text"
                   placeholder="Store Name"
                   {...register("storeName", { required: true, minLength: 3 })}
@@ -253,7 +253,7 @@ const SignUp = () => {
                     required: true,
                     pattern: /^[0-9]{10}$/,
                   })}
-                  className="w-full px-2 py-4 border rounded-md focus:outline-none focus:border-turquoise"
+                  className="block w-full px-4 py-2 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
                 />
               </div>
               {errors.storePhone && errors.storePhone.type === "required" && (
@@ -279,7 +279,7 @@ const SignUp = () => {
                     required: true,
                     pattern: /^T\d{4}V\d{6}$/, 
                   })}
-                  className="w-full px-2 py-4 border rounded-md focus:outline-none focus:border-turquoise"
+                  className="block w-full px-4 py-2 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
                 />
               </div>
               {errors.tax_no && errors.tax_no.type === "required" && (
@@ -308,7 +308,7 @@ const SignUp = () => {
                         isValidIBAN(value) || "Invalid IBAN address",
                     },
                   })}
-                  className="px-2 py-4 border rounded-md w-full focus:outline-none focus:border-turquoise"
+                  className="block w-full px-4 py-2 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
                 />
               </div>
               {errors.bank_account &&
@@ -350,7 +350,7 @@ const SignUp = () => {
           </div>
           <button
             type="submit"
-            className="flex items-center bg-[#23A6F0] text-white justify-center border-2 rounded-md px-8 py-4 bg-turquoise "
+            className="flex items-center bg-[#23A6F0] text-white justify-center border-2 rounded-md px-8 py-4 hover:bg-blue-600"
             disabled={loading}
           >
             {loading ? (
