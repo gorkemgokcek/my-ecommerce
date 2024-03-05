@@ -56,7 +56,7 @@ const Contact = () => {
           <p className="text-center text-slate-800 text-lg font-bold font-['Montserrat']  tracking-tight pt-5 pb-2">
             Get Support
           </p>
-         
+          <button className="ml-[23px] border-1  border-[#23A6F0] text-[#23A6F0] w-[189px] h-[54px] px-[36px] py-[15px] rounded-[37px] hover:bg-gray-300">Submit</button>
         </div>
         <div className="py-20 flex flex-col items-center gap-2 p-14 bg-[#252B42] ">
           <img src="public/location.svg"></img>
@@ -69,6 +69,7 @@ const Contact = () => {
           <p className="text-center text-white text-slate-800 text-lg font-bold tracking-tight pt-5 pb-2">
             Get Support
           </p>
+          <button className="ml-[23px] border-1  border-[#23A6F0] text-[#23A6F0] w-[189px] h-[54px] px-[36px] py-[15px] rounded-[37px] hover:bg-gray-300">Submit</button>
           
         </div>
         <div className="py-20 flex flex-col items-center gap-2 p-14 bg-white  ">
@@ -82,7 +83,7 @@ const Contact = () => {
           <p className="text-center text-slate-800 text-lg font-bold tracking-tight pt-5 pb-2">
             Get Support
           </p>
-          
+          <button className="ml-[23px] border-1  border-[#23A6F0] text-[#23A6F0] w-[189px] h-[54px] px-[36px] py-[15px] rounded-[37px] hover:bg-gray-300">Submit</button>
         </div>
       </div>
       <div className="flex flex-col gap-10 items-center px-[15%] py-20 font-montserrat">
