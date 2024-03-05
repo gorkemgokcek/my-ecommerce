@@ -347,6 +347,17 @@ const SignUp = () => {
             <p className="font-montserrat font-bold text-sm text-[#252B42] tracking-[0.0125rem] ">
               Store
             </p>
+            <input
+              {...register("role_id", { required: true })}
+              type="radio"
+              value="customer"
+              id="3"
+              defaultChecked={selectedRoleID === "3"}
+              onChange={() => setSelectedRoleID("3")}
+            />
+            <p className="font-montserrat font-bold text-sm text-[#252B42] tracking-[0.0125rem] ">
+              Admin
+            </p>
           </div>
           <button
             type="submit"
