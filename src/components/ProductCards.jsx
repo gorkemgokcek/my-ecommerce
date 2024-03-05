@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar, faDownload, faChartArea, faChartLine, faChevronRight } from "@fortawesome/free-solid-svg-icons";
 import  { faClock } from "@fortawesome/free-regular-svg-icons";
-
+import { Link } from "react-router-dom/cjs/react-router-dom.min";
 
 export default function ProductCards() {
     return (
@@ -32,7 +32,7 @@ export default function ProductCards() {
                         <h6 className="text-xs  leading-4 secondary-text "><FontAwesomeIcon icon={faChartLine} style={{ color: "#E77C40", }} /> 64 Lessons</h6>
                         <h6 className="text-xs  leading-4 secondary-text "><FontAwesomeIcon icon={faChartArea} style={{ color: "#23856D", }} /> Progress</h6>
                     </div>
-                    <button className="product-card-more ">Learn More <FontAwesomeIcon icon={faChevronRight} /> </button>
+                    <Link to="/productdetail"><button className="product-card-more ">Learn More <FontAwesomeIcon icon={faChevronRight} /> </button></Link>
                 </div>
             </div>
         </div>

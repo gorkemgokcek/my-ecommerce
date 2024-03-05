@@ -25,17 +25,17 @@ export default function HomePage() {
                 <div className="flex gap-3 justify-center mt-[50px] relative">
                     <div className="flex">
                         <img src="man.jpeg" className="object-cover w-[500px] h-[509px]" />
-                        <button className="absolute bottom-0 mb-4 ml-6 px-16 py-3 font-bold tracking-normal bg-white text-black shadow-xl hover:opacity-80">MEN</button>
+                        <button className=" absolute bg-white mt-[434px] xl:ml-[31px] sm:ml-[11px] xl:w-[170px] xl:h-[48px] sm:w-[105px] sm:h-[28px] lg:w-[135px] lg:h-[36px] md:sm:w-[125px] md:h-[32px] w-[85px] h-[24px] z-10 font-bold xl:text-[16px] sm:text-[10px] lg:text-sm md:text-xs text-[10px] hover:opacity-80">MEN</button>
                     </div>
                     <div className="flex">
                         <img src="women.jpeg" className="object-cover w-[250px] h-[509px]" />
-                        <button className="absolute bottom-0 mb-4 ml-6 px-16 py-3 font-bold tracking-normal bg-white text-black shadow-xl hover:opacity-80">WOMEN</button>
+                        <button className=" absolute bg-white mt-[434px] xl:ml-[31px] sm:ml-[11px] xl:w-[170px] xl:h-[48px] sm:w-[105px] sm:h-[28px] lg:w-[135px] lg:h-[36px] md:sm:w-[125px] md:h-[32px] w-[85px] h-[24px] z-10 font-bold xl:text-[16px] sm:text-[10px] lg:text-sm md:text-xs text-[10px] hover:opacity-80">WOMEN</button>
                     </div>
                     <div className="flex-col relative ">
                         <div className="flex mb-2">
                             <img src="kids.jpeg" className="object-cover w-[250px] h-[250px]" />
-                            <button className="mt-[426px] bg-white absolute w-[150px] h-[50px] z-10 font-bold text-[15px] hover:opacity-80">ACCESSORIES</button>
-                            <button className="mt-[176px] bg-white absolute w-[150px] h-[50px] z-10 font-bold text-[15px] hover:opacity-80">KIDS</button>
+                            <button className="mt-[426px] absolute bg-white xl:ml-[31px] sm:ml-[11px] xl:w-[170px] xl:h-[48px] sm:w-[105px] sm:h-[28px] lg:w-[135px] lg:h-[36px] md:sm:w-[125px] md:h-[32px] w-[85px] h-[24px] z-10 font-bold xl:text-[16px] sm:text-[10px] lg:text-sm md:text-xs text-[10px] hover:opacity-80">ACCESSORIES</button>
+                            <button className="mt-[176px] absolute bg-white xl:ml-[31px] sm:ml-[11px] xl:w-[170px] xl:h-[48px] sm:w-[105px] sm:h-[28px] lg:w-[135px] lg:h-[36px] md:sm:w-[125px] md:h-[32px] w-[85px] h-[24px] z-10 font-bold xl:text-[16px] sm:text-[10px] lg:text-sm md:text-xs text-[10px] hover:opacity-80">KIDS</button>
                         </div>
                         <div className="flex">
                             <img src="accessories.jpeg" className="object-cover w-[250px] h-[250px]" />

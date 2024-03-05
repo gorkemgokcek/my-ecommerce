@@ -42,7 +42,7 @@ const Pricing = () => {
           id="box-span"
           className="flex flex-row sm:flex-col sm:gap-8 w-full items-end justify-center"
         >
-          <span id="box-1" className="border border-blue1 text-center font-bold items-center rounded-lg flex flex-col w-full gap-8 py-10">
+          <span id="box-1" className="border hover:scale-110 transition duration-200 text-center font-bold items-center rounded-lg flex flex-col w-full gap-8 py-10">
             <h3 className="text-black sm:text-3xl">FREE</h3>
             <p className="font-semibold text-sm w-2/5 w-[35%] sm:w-full sm:text-xl text-black">
               Organize across all apps by hand
@@ -98,7 +98,7 @@ const Pricing = () => {
               </button>
             </span>
           </span>
-          <span id="box-2" className="border border-blue1 text-center bg-[#282D4D] text-white font-bold items-center rounded-lg flex flex-col w-full gap-8 py-10">
+          <span id="box-2" className="border text-center hover:scale-110 transition duration-200 bg-[#282D4D] text-white font-bold items-center rounded-lg flex flex-col w-full gap-8 py-10">
             <h3 className="text-white sm:text-3xl">STANDARD</h3>
             <p className="font-semibold text-sm w-2/5 w-[35%] sm:w-full sm:text-xl text-white">
               Organize across all apps by hand
@@ -154,7 +154,7 @@ const Pricing = () => {
               </button>
             </span>
           </span>
-          <span id="box-3" className="border border-blue1 text-center font-bold items-center rounded-lg flex flex-col w-full gap-8 py-10">
+          <span id="box-3" className="border text-center hover:scale-110 transition duration-200 font-bold items-center rounded-lg flex flex-col w-full gap-8 py-10">
             <h3 className="text-black sm:text-3xl">PREMIUM</h3>
             <p className="font-semibold text-sm w-2/5 w-[35%] sm:w-full sm:text-xl text-black">
               Organize across all apps by hand
@@ -205,7 +205,7 @@ const Pricing = () => {
                 />{" "}
                 Email and community support
               </p>
-              <button className="w-full sm:text-xl border border-blue1 rounded-md bg-blue1 text-[#282D4D] text-sm py-3">
+              <button className="w-full sm:text-xl border rounded-md bg-blue1 text-[#282D4D] text-sm py-3">
                 Try for free
               </button>
             </span>
@@ -236,12 +236,6 @@ const Pricing = () => {
         id="FAQ"
         className="flex items-center justify-between w-full flex-col gap-8 px-40 py-10 sm:px-10"
       >
-
-        <span className="sm:flex sm:items-center sm:justify-center sm:py-10">
-          <h5 className="h5-styles sm:font-bold sm:w-full sm:text-xl">
-            Haven’t got your answer? <p>Contact our support</p>
-          </h5>
-        </span>
       </section>
       <section id="trial" className="flex items-center text-center justify-between w-full font-bold px-40 py-20  sm:px-10 sm:py-20 sm:gap-12 sm:w-full flex-col gap-8">
         <h3 className="h3-styles sm:text-5xl">Start your 14 days free trial</h3>
@@ -249,7 +243,7 @@ const Pricing = () => {
           Met minim Mollie non desert Alamo est sit cliquey dolor do met sent.
           RELIT official consequent.
         </p>
-        <button className="text-center border border-blue1 rounded-lg px-5 py-3 bg-[#23A6F0] text-white font-bold text-sm sm:text-lg">
+        <button className="text-center border rounded-lg px-5 py-3 bg-[#23A6F0] text-white font-bold hover:bg-blue-600 text-sm sm:text-lg">
           Try it free now
         </button>
       </section>

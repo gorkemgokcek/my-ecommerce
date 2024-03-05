@@ -121,7 +121,7 @@ const SignUp = () => {
               type="text"
               placeholder="Name"
               {...register("name", { required: true, min: 3 })}
-              className="block w-full px-4 py-2 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
+              className="block w-full px-4 py-2 mt-2 text-black placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
             />
           </div>
           {errors.name && errors.name.type === "required" && (
@@ -148,7 +148,7 @@ const SignUp = () => {
                 required: true,
                 pattern: /^\S+@\S+$/i,
               })}
-              className="block w-full px-4 py-2 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
+              className="block w-full px-4 py-2 mt-2 text-black placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
             />
           </div>
           {errors.email && errors.email.type === "required" && (
@@ -174,7 +174,7 @@ const SignUp = () => {
                 pattern:
                   /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%^&*()_+}{"':;?/>.<,]).{8,}$/,
               })}
-              className="block w-full px-4 py-2 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
+              className="block w-full px-4 py-2 mt-2 text-black placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
             />
           </div>
           {errors.password && errors.password.type === "required" && (
@@ -200,7 +200,7 @@ const SignUp = () => {
               />
             </a>
             <input
-              className="block w-full px-4 py-2 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
+              className="block w-full px-4 py-2 mt-2 text-black placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
               type="password"
               placeholder="Confirm Password"
               {...register("confirmPassword", {
@@ -329,19 +329,19 @@ const SignUp = () => {
             <input
               {...register("role_id", { required: true })}
               type="radio"
-              value="customer"
-              id="3"
+              value="admin"
+              id="0"
               defaultChecked={selectedRoleID === "3"}
               onChange={() => setSelectedRoleID("3")}
             />
             <p className="font-montserrat font-bold text-sm text-[#252B42] tracking-[0.0125rem] ">
-              Customer
+              Admin
             </p>
             <input
               {...register("role_id", { required: true })}
               type="radio"
-              value="2"
-              id="2"
+              value="store"
+              id="1"
               onChange={() => setSelectedRoleID("2")}
             />
             <p className="font-montserrat font-bold text-sm text-[#252B42] tracking-[0.0125rem] ">
@@ -351,12 +351,12 @@ const SignUp = () => {
               {...register("role_id", { required: true })}
               type="radio"
               value="customer"
-              id="3"
+              id="2"
               defaultChecked={selectedRoleID === "3"}
               onChange={() => setSelectedRoleID("3")}
             />
             <p className="font-montserrat font-bold text-sm text-[#252B42] tracking-[0.0125rem] ">
-              Admin
+              Customer
             </p>
           </div>
           <button
