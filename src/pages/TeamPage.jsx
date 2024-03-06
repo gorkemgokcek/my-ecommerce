@@ -17,15 +17,46 @@ export default function Team() {
           <span className="text-[#737373]">Team</span>
         </p>
       </div>
-            <div className="w-[400px] mb-5 flex flex-col gap-3">
-                <h2 className="font-bold text-4xl text-center">Meet Our Team</h2>
-                <p className="text-md leading-5 text-secondaryColor text-center">Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics</p>
-            </div>
-            <div className="flex flex-col md:flex-row gap-4 flex-wrap">
-                <TeamCard />
-                <TeamCard />
-                <TeamCard />
-            </div>
+      <section className="flex flex-col lg:flex-row justify-center items-center shrink-0 gap-2.5">
+        <div>
+          <img src="team1.jpeg" className="shrink-0"></img>
+        </div>
+        <div className="flex lg:flex-col gap-2.5">
+          <img
+            src="team2.jpeg"
+            className="w-[200px] h-[260px] md:w-[361px] md:h-[260px] object-cover shrink-0"
+          ></img>
+          <img
+            src="team3.jpeg"
+            className="w-[200px] h-[260px] md:w-[361px] md:h-[260px] object-cover shrink-0 "
+          ></img>
+        </div>
+
+        <div className="flex lg:flex-col gap-2.5">
+          <img
+            src="team4.jpeg"
+            className="w-[200px] h-[260px] md:w-[361px] md:h-[260px] object-cover shrink-0"
+          ></img>
+          <img
+            src="team5.jpeg"
+            className="w-[200px] h-[260px] md:w-[361px] md:h-[260px] object-cover shrink-0"
+          ></img>
+        </div>
+      </section>
+            
+      <section className="flex flex-col flex-wrap items-center justify-center">
+        <div className="flex flex-col items-center justify-center py-28 gap-28">
+          <h2 className="text-4xl font-bold text-center ">
+            Meet Our Team
+          </h2>
+
+          <div className="flex gap-5">
+            <TeamCard />
+            <TeamCard />
+            <TeamCard />
+          </div>
+        </div>
+      </section>
             <div className="container mx-auto text-center my-[5rem] flex flex-col gap-[2rem] sm:w-11/12">
         <h2 className="text-center text-slate-800 text-4xl font-bold font-['Montserrat']  tracking-tight xl:text-5xl">
           Start your 14 days free trial
@@ -34,8 +65,8 @@ export default function Team() {
           Met minim Mollie non desert Alamo est sit cliquey dolor do met sent.
           RELIT official consequent.
         </h6>
-        <Link to="/pricing"><button className="bg-[#23A6F0] hover:bg-blue-600 text-white w-[23%] sm:w-[20%] mx-auto py-[10px] rounded-[5px]">
-          TRY IT FREE NOW
+        <Link to="/pricing"> <button className="text-center border rounded-lg px-5 py-3 bg-[#23A6F0] text-white font-bold hover:bg-blue-600 text-sm sm:text-lg">
+          Try it free now
         </button></Link>
 
         </div>

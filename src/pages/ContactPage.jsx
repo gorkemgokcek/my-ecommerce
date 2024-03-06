@@ -94,7 +94,9 @@ const Contact = () => {
         <p className="text-center text-slate-800 text-6xl font-bold leading-[58px] max-w-md">
           Let’s Talk
         </p>
-        <button className='bg-[#23A6F0] hover:bg-blue-600 px-[45px] py-[20px] text-white text-md font-bold rounded mb-[90px]'>TRY IT FREE NOW</button>
+        <button className="text-center border rounded-lg px-5 py-3 bg-[#23A6F0] text-white font-bold hover:bg-blue-600 text-sm sm:text-lg">
+          CONTACT OUR COMPANY
+        </button>
       </div>
     </div>
   );

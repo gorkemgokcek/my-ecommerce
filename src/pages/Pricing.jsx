@@ -217,12 +217,12 @@ const Pricing = () => {
         className="flex items-center text-center justify-between w-full font-bold px-40 py-20  sm:px-10 sm:py-20 sm:gap-12 sm:w-full flex-col bg-lightgray gap-10"
       >
         <span id="companies-text" className="flex flex-col items-center gap-5">
-          <p className="p-styles w-full text-base sm:text-lg">
+          <p className="w-full text-base sm:text-lg">
             Trusted By Over 4000 Big Companies
           </p>
         </span>
-        <div className="bg-[#FAFAFA] mt-5 flex-col">
-            <div className="flex flex-col lg:flex-row gap-5 px-[50px] sm:px-[195px] justify-between ">
+        <div className="bg-[#FAFAFA] mt-5">
+            <div className="flex flex-col lg:flex-row gap-5 px-[50px] sm:px-[195px] justify-between">
                 <FontAwesomeIcon icon={faHooli} size="6x" style={{ color: "#737373", }} />
                 <FontAwesomeIcon icon={faLyft} size="6x" style={{ color: "#737373", }} />
                 <FontAwesomeIcon icon={faPiedPiperHat} size="6x" style={{ color: "#737373", }} />
