@@ -1,6 +1,7 @@
 import { useHistory } from "react-router-dom";
 import { faEnvelope, faKey } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Link } from "react-router-dom/cjs/react-router-dom.min";
 
 const Login = () => {
   const history = useHistory();
@@ -53,9 +54,9 @@ const Login = () => {
                 </div>
 
                 <div className="mt-6">
-                  <button className="items-center justify-center text-white border-2 rounded-md px-8 py-4 font-bold bg-[#23A6F0] hover:bg-blue-600">
+                  <Link to="/"><button className="items-center justify-center text-white border-2 rounded-md px-8 py-4 font-bold bg-[#23A6F0] hover:bg-blue-600">
                     Sign in
-                  </button>
+                  </button></Link>
                 </div>
               </form>
 

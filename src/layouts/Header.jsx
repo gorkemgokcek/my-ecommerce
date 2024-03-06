@@ -84,7 +84,7 @@ export default function Header() {
         </div>
       </section>
 
-      <nav className="flex flex-col h-[400px] items-center sm:gap-6 sm:flex sm:flex-row sm:justify-between sm:items-center sm:h-auto px-[10%] py-2.5 bg-white ">
+      <nav className="flex flex-col h-[400px] items-center sm:gap-6 sm:flex sm:flex-row sm:justify-between sm:items-center sm:h-auto px-[10%] py-2.5 bg-">
         <div className="flex flex-row gap-40 pb-8 sm:flex sm:pb-0">
           <div className="">
             <Link to="/" className="text-darkTextColor text-2xl font-bold">
@@ -106,9 +106,9 @@ export default function Header() {
               />
             </Link>
 
-            <Link to="/basket">
+            <Link to="/login">
               <FontAwesomeIcon
-                icon={faList}
+                icon={faUser}
                 style={{ color: "primaryColor" }}
               />
             </Link>

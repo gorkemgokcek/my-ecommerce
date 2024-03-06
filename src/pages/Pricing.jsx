@@ -238,8 +238,8 @@ const Pricing = () => {
       >
       </section>
       <section id="trial" className="flex items-center text-center justify-between w-full font-bold px-40 py-20  sm:px-10 sm:py-20 sm:gap-12 sm:w-full flex-col gap-8">
-        <h3 className="h3-styles sm:text-5xl">Start your 14 days free trial</h3>
-        <p className="p-styles w-1/3 sm:w-full sm:text-lg">
+        <h3 className="sm:text-5xl">Start your 14 days free trial</h3>
+        <p className="w-1/3 sm:w-full sm:text-lg">
           Met minim Mollie non desert Alamo est sit cliquey dolor do met sent.
           RELIT official consequent.
         </p>
