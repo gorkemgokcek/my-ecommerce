@@ -44,8 +44,8 @@ const Contact = () => {
           We help small businesses with big ideas
         </h3>
       </div>
-      <div className="flex flex-wrap justify-center  gap-10 pt-32 pb-20 font-montserrat sm:bg-[#FAFAFA]">
-        <div className="py-20 flex flex-col items-center gap-2 p-14 bg-white">
+      <div className="flex flex-wrap justify-center gap-10 pt-32 pb-20 font-montserrat sm:bg-[#FAFAFA]">
+        <div className="py-20 flex flex-col hover:scale-110 items-center gap-2 p-14 bg-white">
           <img src="public/telephone.svg"></img>
           <p className="text-center text-slate-800 text-base font-bold font-['Montserrat']  tracking-tight">
             georgia.young@example.com
@@ -58,7 +58,7 @@ const Contact = () => {
           </p>
           <button className="ml-[23px] border-1  border-[#23A6F0] text-[#23A6F0] w-[189px] h-[54px] px-[36px] py-[15px] rounded-[37px] hover:bg-gray-300">Submit</button>
         </div>
-        <div className="py-20 flex flex-col items-center gap-2 p-14 bg-[#252B42] ">
+        <div className="py-20 flex flex-col hover:scale-110 items-center gap-2 p-14 bg-[#252B42] ">
           <img src="public/location.svg"></img>
           <p className="text-center text-slate-800 text-white text-base font-bold tracking-tight">
             georgia.young@example.com
@@ -72,7 +72,7 @@ const Contact = () => {
           <button className="ml-[23px] border-1  border-[#23A6F0] text-[#23A6F0] w-[189px] h-[54px] px-[36px] py-[15px] rounded-[37px] hover:bg-gray-300">Submit</button>
           
         </div>
-        <div className="py-20 flex flex-col items-center gap-2 p-14 bg-white  ">
+        <div className="py-20 flex flex-col hover:scale-110 items-center gap-2 p-14 bg-white  ">
           <img src="public/mail.svg"></img>
           <p className="text-center text-slate-800 text-base font-bold tracking-tight">
             georgia.young@example.com

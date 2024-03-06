@@ -21,13 +21,8 @@ export default function AboutPage() {
                         <button className="py-4 px-10 items-center gap-2.5 text-white font-bold text-md rounded hover:bg-blue-600 bg-[#23A6F0]">Get Quote Now</button>
                         </div>
                     </div>
-                    <div className="basis-2/3">
-                        <button className="rounded-full bg-[#977DF4] w-[9px] h-[9px] sm:absolute relative lg:top-[190px] top-[80px] sm:top-[450px] lg:left-[79%] left-[78%]  sm:left-[68%] transform translate-x-[-50%] lg:flex sm:hidden flex z-10"></button>
-                        <button className="rounded-full bg-[#977DF4] w-[9px] h-[9px] sm:absolute relative lg:top-[350px] top-[260px] sm:top-[550px] lg:left-[55%] left-[5%] sm:left-[30%] transform translate-x-[-50%] lg:flex sm:hidden flex z-10"></button>
-                        <button className="rounded-full bg-[#FFE9EA] w-[47px] h-[47px] sm:absolute relative top-[70px] sm:top-[420px] lg:top-[120px] left-[10%] sm:left-[30%]  lg:left-[55%] transform translate-x-[-50%] lg:flex sm:hidden flex z-10"></button>
-                        <button className="rounded-full bg-[#FFE9EA] w-[18px] h-[18px] sm:absolute relative lg:top-[250px] top-[200px] sm:top-[530px] left-[71%] sm:left-[70%] lg:left-[52%] transform translate-x-[-50%] lg:flex sm:hidden flex z-10"></button>
-                        <button className="rounded-full bg-[#FFE9EA] w-[295px] h-[295px] sm:absolute relative top-[30px] sm:top-[400px] lg:top-[120px] left-[45%] sm:left-[48%] lg:left-[65%] transform translate-x-[-50%] lg:flex sm:hidden flex z-10"></button>
-                        <img src="about.jpeg" className="absolute lg:top-[50px] sm:top-[320px] top-[5px]  lg:left-[65%] sm:left-[45%] left-[-10%] transform translate-x-[-5%] translate-y-[-90%] sm:translate-y-0 sm:translate-x-[-50%] z-10 max-w-[500px]  sm:max-h-[500px] max-h-[300px] sm:max-w-[700px] lg:flex sm:hidden flex " />
+                    <div className="flex md:w-full md:justify-center">
+                        <img src="about.jpeg" className="flex m:w-[342px]" />
                     </div>
                 </div>
             </div>

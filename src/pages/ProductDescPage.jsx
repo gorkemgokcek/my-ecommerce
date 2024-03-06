@@ -1,6 +1,5 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import ProductCards from "../components/ProductCards";
 import {
   faHeart,
   faCartShopping,
@@ -9,6 +8,7 @@ import {
   faCircle,
   faAngleRight,
 } from "@fortawesome/free-solid-svg-icons";
+import ProductCards from "../components/ProductCards";
 const Product = () => {
   return (
     <main>
@@ -20,15 +20,16 @@ const Product = () => {
         </div>
       </section>
 
-      <section className="productCards flex px-48 justify-center items-center self-stretch bg-lightGray1">
+      <section className="flex px-48 bg-[#F8F8F8] justify-center items-center self-stretch bg-">
         <div className="flex pb-12 items-start">
           <div className="flex flex-col md:flex-row items-start gap-10">
+            <img src="productDesc2.jpeg" className="w-[500px] lg:w-[500px] md:w-[600px] sm:w-[600px] shadow-[10px] rounded-[20px]" />
             <div className="flex justify-center items-center basis-1/2">
             </div>
 
-            <div className=" flex flex-col basis-1/2 gap-6 px-8 md:px-0">
-              <h4 className="text-xl font-normal text-darkTextColor">
-                Floating Phone
+            <div className=" flex flex-col w-[510px] h-[470px] justify-around md:w-[350px] md:items-center md:my-8">
+              <h4 className="text-xl font-semibold">
+                Gray Wing Chair
               </h4>
 
               <div className="inline-flex items-start gap-2.5">
@@ -42,25 +43,24 @@ const Product = () => {
                 <p>10 Reviews</p>
               </div>
 
-              <h5 className="text-2xl font-bold text-darkTextColor">
+              <h5 className="text-2xl font-bold">
                 $1,139.33
               </h5>
 
-              <div className="inline-flex items-center gap-1">
-                <p className="text-sm font-bold text-secondTextColor">
+              <div className="flex flex-row gap-2 items-center">
+                <p className="text-sm font-bold text-secondaryColor">
                   Availability :
                 </p>
-                <p className="text-sm font-bold text-primaryColor">In Stock </p>
+                <p className="text-sm font-bold text-secondaryColor">In Stock </p>
               </div>
 
-              <p className="text-sm font-normal text-secondTextColor">
+              <p className="text-[#858585] text-sm md:text-center">
                 Met minim Mollie non desert Alamo est sit cliquey dolor do met
                 sent. RELIT official consequent door ENIM RELIT Mollie.
                 Excitation venial consequent sent nostrum met.
               </p>
 
-              <hr className="bg-mutedColor h-[1px]" />
-
+              <hr className="flex" />
               <div className="inline-flex items-center gap-2.5">
                 <FontAwesomeIcon
                   icon={faCircle}
@@ -85,28 +85,26 @@ const Product = () => {
               </div>
 
               <div className="flex justify-center md:justify-start items-center gap-2.5 pt-8">
-                <button className="py-4 px-7 items-center gap-2.5 bg-primaryColor text-white font-bold text-sm rounded">
+                <button className="py-4 px-7 items-center gap-2.5 bg-[#23A6F0] hover:bg-blue-600 text-white font-bold text-sm rounded">
                   Select Options
                 </button>
+            
+                  <button className="flex w-[40px] h-[40px] p-2.5 justify-center items-center rounded-[45px] border border-solid border-borderColor bg-white ">
+                    <FontAwesomeIcon icon={faHeart} />
+                  </button>
 
-                <button className="flex w-[40px] h-[40px] p-2.5 justify-center items-center rounded-[45px] border border-solid border-borderColor bg-white ">
-                  <FontAwesomeIcon icon={faHeart} />
-                </button>
-
-                <button className="flex w-[40px] h-[40px] p-2.5 justify-center items-center rounded-[45px] border border-solid border-borderColor bg-white ">
-                  <FontAwesomeIcon icon={faCartShopping} />
-                </button>
-                <button className="flex w-[40px] h-[40px] p-2.5 justify-center items-center rounded-[45px] border border-solid border-borderColor bg-white ">
-                  <FontAwesomeIcon icon={faEye} />
-                </button>
-              </div>
+                  <button className="flex w-[40px] h-[40px] p-2.5 justify-center items-center rounded-[45px] border border-solid border-borderColor bg-white ">
+                    <FontAwesomeIcon icon={faCartShopping} />
+                  </button>
+                  <button className="flex w-[40px] h-[40px] p-2.5 justify-center items-center rounded-[45px] border border-solid border-borderColor bg-white ">
+                    <FontAwesomeIcon icon={faEye} />
+                  </button>
+                </div>
             </div>
           </div>
         </div>
       </section>
-
-      <section className="productDescription flex flex-col justify-end items-center gap-4 self-stretch">
-        <div className="flex flex-row items-center gap-1 pt-2 px-48 pb-1">
+      <div className="flex flex-row items-center gap-1 pt-2 px-96 pb-1">
           <div className="flex p-6 justify-center items-center gap-2">
             <a href="#" className="text-sm font-semibold text-secondTextColor">
               Description
@@ -125,98 +123,98 @@ const Product = () => {
           </div>
         </div>
 
-        <div className="flex flex-col py-6 px-12 gap-8">
-          <div className="flex flex-col flex-wrap justify-center md:flex-row items-start gap-8">
-            <div className="flex flex-col items-start shrink-0 w-[332px] h-[392px]">
-            </div>
+      <div className="flex flex-col py-6 px-12 gap-8">
+        <div className="flex flex-col flex-wrap justify-center md:flex-row items-start gap-8">
+          <div className="flex flex-col items-start shrink-0 w-[332px] h-[392px]">
+            <img src="productInfo.jpeg" className="shrink-0 rounded" />
+          </div>
 
-            <div className="flex flex-col items-start w-[332px] pb-6 gap-8">
+          <div className="flex flex-col items-start w-[332px] pb-6 gap-8">
+            <h5 className="text-2xl font-bold text-darkTextColor">
+              the quick fox jumps over
+            </h5>
+
+            <p className="text-sm font-semibold">
+              Met minim Mollie non desert Alamo est sit cliquey dolor do met
+              sent. RELIT official consequent door ENIM RELIT Mollie.
+              Excitation venial consequent sent nostrum met.
+              <br />
+              <br />
+              Met minim Mollie non desert Alamo est sit cliquey dolor do met
+              sent. RELIT official consequent door ENIM RELIT Mollie.
+              Excitation venial consequent sent nostrum met.
+              <br />
+              <br />
+              Met minim Mollie non desert Alamo est sit cliquey dolor do met
+              sent. RELIT official consequent door ENIM RELIT Mollie.
+              Excitation venial consequent sent nostrum met.
+            </p>
+          </div>
+
+          <div className="flex flex-col w-[332px] items-start gap-5 shrink-0">
+            <div className="flex flex-col items-start gap-2">
               <h5 className="text-2xl font-bold text-darkTextColor">
                 the quick fox jumps over
               </h5>
-
-              <p className="text-sm font-normal text-secondTextColor">
-                Met minim Mollie non desert Alamo est sit cliquey dolor do met
-                sent. RELIT official consequent door ENIM RELIT Mollie.
-                Excitation venial consequent sent nostrum met.
-                <br />
-                <br />
-                Met minim Mollie non desert Alamo est sit cliquey dolor do met
-                sent. RELIT official consequent door ENIM RELIT Mollie.
-                
-                Excitation venial consequent sent nostrum met.
-                <br />
-                <br />
-                Met minim Mollie non desert Alamo est sit cliquey dolor do met
-                sent. RELIT official consequent door ENIM RELIT Mollie.
-                Excitation venial consequent sent nostrum met.
-              </p>
-            </div>
-
-            <div className="flex flex-col w-[332px] items-start gap-5 shrink-0">
-              <div className="flex flex-col items-start gap-5">
-                <h5 className="text-2xl font-bold text-darkTextColor">
-                  the quick fox jumps over
-                </h5>
-                <div className="flex flex-col items-start gap-2.5">
-                  <div className="flex tems-start gap-5">
-                    <FontAwesomeIcon
-                      icon={faAngleRight}
-                      style={{ color: "#737373" }}
-                    />
-                    <p>the quick fox jumps over the lazy dog</p>
-                  </div>
-                  <div className="flex tems-start gap-5">
-                    <FontAwesomeIcon
-                      icon={faAngleRight}
-                      style={{ color: "#737373" }}
-                    />
-                    <p>the quick fox jumps over the lazy dog</p>
-                  </div>
-                  <div className="flex tems-start gap-5">
-                    <FontAwesomeIcon
-                      icon={faAngleRight}
-                      style={{ color: "#737373" }}
-                    />
-                    <p>the quick fox jumps over the lazy dog</p>
-                  </div>
-                  <div className="flex tems-start gap-5">
-                    <FontAwesomeIcon
-                      icon={faAngleRight}
-                      style={{ color: "#737373" }}
-                    />
-                    <p>the quick fox jumps over the lazy dog</p>
-                  </div>
+              <div className="flex flex-col items-start gap-2.5">
+                <div className="flex tems-start gap-2">
+                  <FontAwesomeIcon
+                    icon={faAngleRight}
+                    style={{ color: "#737373" }}
+                  />
+                  <p>the quick fox jumps over the lazy dog</p>
+                </div>
+                <div className="flex tems-start gap-2">
+                  <FontAwesomeIcon
+                    icon={faAngleRight}
+                    style={{ color: "#737373" }}
+                  />
+                  <p>the quick fox jumps over the lazy dog</p>
+                </div>
+                <div className="flex tems-start gap-2">
+                  <FontAwesomeIcon
+                    icon={faAngleRight}
+                    style={{ color: "#737373" }}
+                  />
+                  <p>the quick fox jumps over the lazy dog</p>
+                </div>
+                <div className="flex tems-start gap-2">
+                  <FontAwesomeIcon
+                    icon={faAngleRight}
+                    style={{ color: "#737373" }}
+                  />
+                  <p>the quick fox jumps over the lazy dog</p>
                 </div>
               </div>
-
-              <div className="flex flex-col items-start gap-5">
+            </div>
+            <div className="flex flex-col w-[332px] items-start gap-5 shrink-0">
+              <div className="flex flex-col items-start gap-2">
                 <h5 className="text-2xl font-bold text-darkTextColor">
                   the quick fox jumps over
                 </h5>
                 <div className="flex flex-col items-start gap-2.5">
-                  <div className="flex tems-start gap-5">
+                  <div className="flex tems-start gap-2">
                     <FontAwesomeIcon
                       icon={faAngleRight}
                       style={{ color: "#737373" }}
                     />
                     <p>the quick fox jumps over the lazy dog</p>
                   </div>
-                  <div className="flex tems-start gap-5">
+                  <div className="flex tems-start gap-2">
                     <FontAwesomeIcon
                       icon={faAngleRight}
                       style={{ color: "#737373" }}
                     />
                     <p>the quick fox jumps over the lazy dog</p>
                   </div>
-                  <div className="flex tems-start gap-5">
+                  <div className="flex tems-start gap-2">
                     <FontAwesomeIcon
                       icon={faAngleRight}
                       style={{ color: "#737373" }}
                     />
                     <p>the quick fox jumps over the lazy dog</p>
                   </div>
-                  <div className="flex tems-start gap-5">
+                  <div className="flex tems-start gap-2">
                     <FontAwesomeIcon
                       icon={faAngleRight}
                       style={{ color: "#737373" }}
@@ -228,9 +226,8 @@ const Product = () => {
             </div>
           </div>
         </div>
-      </section>
-
-      <section className="bestSellerProducts flex items-center justify-center bg-lightGray1">
+      </div>
+      <section className="flex items-center justify-center bg-lightGray1">
         <div className="flex flex-col py-12 gap-6">
           <div className="flex flex-col items-center justify-center md:items-start text-darkTextColor">
             <h3 className="text-2xl font-bold text-center ">
@@ -239,12 +236,6 @@ const Product = () => {
           </div>
 
           <div className="flex flex-col items-center justify-center">
-            <div className="flex flex-wrap flex-col md:flex-row items-center justify-center gap-8">
-              <ProductCards />
-              <ProductCards />
-              <ProductCards />
-              <ProductCards />
-            </div>
             <div className="flex flex-wrap flex-col md:flex-row items-center justify-center gap-8">
               <ProductCards />
               <ProductCards />

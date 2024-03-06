@@ -1,4 +1,5 @@
 import TeamCard from "../components/TeamCard";
+import  { Link } from "react-router-dom/cjs/react-router-dom.min";
 
 export default function Team() {
     return (
@@ -33,9 +34,9 @@ export default function Team() {
           Met minim Mollie non desert Alamo est sit cliquey dolor do met sent.
           RELIT official consequent.
         </h6>
-        <button className="bg-[#23A6F0] hover:bg-blue-600 text-white w-[23%] sm:w-[20%] mx-auto py-[10px] rounded-[5px]">
+        <Link to="/pricing"><button className="bg-[#23A6F0] hover:bg-blue-600 text-white w-[23%] sm:w-[20%] mx-auto py-[10px] rounded-[5px]">
           TRY IT FREE NOW
-        </button>
+        </button></Link>
 
         </div>
         </div>

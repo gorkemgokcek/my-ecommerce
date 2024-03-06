@@ -54,8 +54,6 @@ export default function HomePage() {
                     <ProductCards />
                     <ProductCards />
                     <ProductCards />
-
-
                 </div>
             </div>
 
