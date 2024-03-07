@@ -9,6 +9,9 @@ import {
   faAngleRight,
 } from "@fortawesome/free-solid-svg-icons";
 import ProductCards from "../components/ProductCards";
+import ProductCards6 from "../components/ProductCards6";
+import ProductCards5 from "../components/ProductCards5";
+import ProductCards4 from "../components/ProductCards4";
 const Product = () => {
   return (
     <main>
@@ -16,7 +19,7 @@ const Product = () => {
         <div className="flex flex-row gap-4 justify-center sm:justify-start w-[1033px]">
           <p className="text-center text-sm font-bold text-[#252B42]">Home</p>
           <FontAwesomeIcon icon={faAngleRight} style={{ color: "#737373" }} />
-          <p className="text-center text-sm font-bold text-[#BDBDBD]">Shop</p>
+          <p className="text-center text-sm font-bold text-[#BDBDBD]">Detail</p>
         </div>
       </section>
 
@@ -238,9 +241,9 @@ const Product = () => {
           <div className="flex flex-col items-center justify-center">
             <div className="flex flex-wrap flex-col md:flex-row items-center justify-center gap-8">
               <ProductCards />
-              <ProductCards />
-              <ProductCards />
-              <ProductCards />
+              <ProductCards4 />
+              <ProductCards6 />
+              <ProductCards5 />
             </div>
           </div>
         </div>

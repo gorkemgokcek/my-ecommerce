@@ -1,14 +1,17 @@
 import TeamCard from "../components/TeamCard";
+import TeamCard2 from "../components/TeamCard2";
+import TeamCard3 from "../components/TeamCard3";
 import  { Link } from "react-router-dom/cjs/react-router-dom.min";
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {faInstagram, faFacebook, faTwitter, faLinkedin} from "@fortawesome/free-brands-svg-icons";
 export default function Team() {
     return (
         <div className="flex-col flex items-center mt-10 pb-10">
             <div className="flex flex-col items-center gap-5 py-20  ">
-        <p className="text-center text-[#737373] text-base font-bold font-['Montserrat'] tracking-tight ">
+        <p className="text-center text-[#737373] text-base font-bold tracking-tight ">
           WHAT WE DO
         </p>
-        <h3 className="text-center text-slate-800 text-5xl font-bold font-['Montserrat'] leading-[80px] tracking-tight lg-text-6xl">
+        <h3 className="text-center text-slate-800 text-5xl font-bold leading-[80px] tracking-tight lg-text-6xl">
           Inovation tailored for you
         </h3>
         <p className="text-center text-neutral-500 text-base font-bold font-['Montserrat']  tracking-tight flex gap-5">
@@ -50,10 +53,10 @@ export default function Team() {
             Meet Our Team
           </h2>
 
-          <div className="flex gap-5">
+          <div className="flex flex-row gap-5 mt-2 justify-center flex-wrap">
             <TeamCard />
-            <TeamCard />
-            <TeamCard />
+            <TeamCard2 />
+            <TeamCard3 />
           </div>
         </div>
       </section>
@@ -68,6 +71,26 @@ export default function Team() {
         <Link to="/pricing"> <button className="text-center border rounded-lg px-5 py-3 bg-[#23A6F0] text-white font-bold hover:bg-blue-600 text-sm sm:text-lg">
           Try it free now
         </button></Link>
+        <div
+          className="text-4xl flex justify-center gap-3"
+        >
+          <a href="https://www.instagram.com/">
+            <FontAwesomeIcon icon={faInstagram}
+             style={{color: "23A6F0"}} />
+          </a>
+          <a href="https://www.facebook.com/">
+            <FontAwesomeIcon icon={faFacebook}
+             style={{color: "23A6F0"}} />
+          </a>
+          <a href="https://www.twitter.com/">
+            <FontAwesomeIcon icon={faTwitter}
+             style={{color: "23A6F0"}} />
+          </a>
+          <a href="https://www.linkedin.com/">
+            <FontAwesomeIcon icon={faLinkedin}
+             style={{color: "23A6F0"}} />
+          </a>
+        </div>
 
         </div>
         </div>

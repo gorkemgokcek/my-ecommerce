@@ -1,6 +1,10 @@
 import SliderCarousel from "../components/SliderCarousel";
 import SliderCarousel2 from "../components/SliderCarousel2";
 import ProductCards from "../components/ProductCards";
+import ProductCards2 from "../components/ProductCards2";
+import ProductCards3 from "../components/ProductCards3";
+import ProductCards4 from "../components/ProductCards4";
+import ProductCards5 from "../components/ProductCards5";
 import { Link } from "react-router-dom/cjs/react-router-dom.min";
 import FeaturedCard from "../components/FeaturedCard";
 export default function HomePage() {
@@ -50,10 +54,10 @@ export default function HomePage() {
                 <p className="text-sm leading-5 align-middle mb-5">Problems trying to resolve the conflict between</p>
                 <div className=" flex flex-wrap flex-row gap-3 justify-between  ">
                     <ProductCards />
-                    <ProductCards />
-                    <ProductCards />
-                    <ProductCards />
-                    <ProductCards />
+                    <ProductCards2 />
+                    <ProductCards3 />
+                    <ProductCards4 />
+                    <ProductCards5 />
                 </div>
             </div>
 
@@ -98,7 +102,7 @@ export default function HomePage() {
                     <h2 className="text-5xl font-bold text-[40px] leading-[50px] text-[#252B42]">Featured Posts</h2>
                     <p className="text-[#737373] text-sm leading-5 w-[369px] text-center">Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics </p>
                 </div>
-                <div className="featured-card flex flex-row  gap-2 mt-5 justify-center flex-wrap ">
+                <div className="featured-card flex flex-row gap-5 mt-5 justify-center flex-wrap ">
                     <FeaturedCard />
                     <FeaturedCard />
                     <FeaturedCard />

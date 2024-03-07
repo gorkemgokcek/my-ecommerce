@@ -120,14 +120,14 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
                     Subscribe
                   </button>
                 </div>
-                <p className="font-mont-p">Lorem impsum dolor amit
+                <p className="font-semibold mt-3">Lorem impsum dolor amit
                 </p>
               </div>
             </div>
           </div>
         </div>
         <div className="w-full h-[74px] mt-[70px] bg-[#FAFAFA]">
-          <p className="m-auto w-[80%] pt-[28px] font-mont-h5 text-[#737373]">
+          <p className="m-auto w-[80%] pt-[28px] font-semibold text-[#737373]">
             {" "}
             Gorkem Gokcek
           </p>

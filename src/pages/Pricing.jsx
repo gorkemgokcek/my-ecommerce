@@ -21,18 +21,20 @@ const Pricing = () => {
           id="text-span"
           className="flex flex-col gap-5 items-center text-center sm:gap-8"
         >
-          <h3 className="h3-styles sm:text-5xl">Pricing</h3>
+          <h3 className="sm:text-5xl">Pricing</h3>
           <p className="p-styles w-1/2 sm:w-full sm:text-xl">
             Problems trying to resolve the conflict between the two major realms
             of Classical physics: Newtonian mechanics{" "}
           </p>
           <span
-            id="switch-button"
+            id=""
             className="flex flex-row gap-3 text-center items-center"
           >
-            <h4 className="h4-styles">Monthly</h4>
-      
-            <h4 className="h4-styles">Yearly</h4>
+            <h4 className="">Monthly</h4>
+            <div>
+            <FontAwesomeIcon icon="fa-regular fa-toggle-off" />
+            </div>
+            <h4 className="">Yearly</h4>
             <button className="border border-blue2 bg-blue2 text-blue1 rounded-2xl text-sm py-1 px-2 ">
               Save 25%
             </button>

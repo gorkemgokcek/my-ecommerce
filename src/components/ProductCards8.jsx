@@ -3,11 +3,11 @@ import { faStar, faDownload, faChartArea, faChartLine, faChevronRight } from "@f
 import  { faClock } from "@fortawesome/free-regular-svg-icons";
 import { Link } from "react-router-dom/cjs/react-router-dom.min";
 
-export default function ProductCards() {
+export default function ProductCards8() {
     return (
         <div className="flex justify-between border-1 border-gray-150 shadow-sm">
             <div className="product-card w-[328px] h-[604px] sm:w-[308px] sm:h-[580px] m-3 relative">
-                <img src="products.jpeg" className="object-cover" />
+                <img src="products8.jpeg" className="object-cover" />
                {/*  sale button and cartshopping icon add */}
                 <div className="flex-col text-left m-3">
                     <div className="flex justify-between mb-3">
@@ -18,8 +18,8 @@ export default function ProductCards() {
                     <p className="text-sm leading-5  secondary-text text- mr-3 mb-3">We focus on ergonomics and meeting you where you work. It's only a keystroke away.</p>
                     <h6 className="font-bol text-sm leading-6  secondary-text  mb-3 font-bold"><FontAwesomeIcon icon={faDownload} /> %15 Sales</h6>
                     <div className="flex gap-1 mb-3">
-                        <h5 className="text-[#909090] text-[16px] leading-6 font-bold">$499.99</h5>
-                        <h6 className="text-gray text-[16px] leading-6 font-bold">$424.99</h6>
+                        <h5 className="text-[#909090] text-[16px] leading-6 font-bold">$16.48</h5>
+                        <h6 className="text-gray text-[16px] leading-6 font-bold">$14.02</h6>
                     </div>
                     <div className="flex gap-1 mb-3">
                         <button className="p-2 rounded-full bg-[#23A6F0]"></button>

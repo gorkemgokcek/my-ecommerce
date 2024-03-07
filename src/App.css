@@ -6,7 +6,7 @@
 
 
 .footer-title{
-  @apply font-bold text-base text-[#252B42] leading-5
+  @apply font-bold text-center text-[#252B42] leading-5
 }
 
 
@@ -24,7 +24,7 @@
 }
 
 .third-button {
-  @apply bg-blue-500 hover:bg-transparent hover:border-blue-500 text-white w-[120px] h-[52px] 
+  @apply bg-blue-500 hover:scale-110  hover:border-blue-500 text-white w-[120px] h-[52px] 
 }
 
 .secondary-text {

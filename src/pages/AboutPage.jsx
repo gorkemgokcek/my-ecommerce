@@ -2,6 +2,8 @@
 import { faAws, faStripe, faLyft, faPiedPiperHat, faRedditAlien, faHooli } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import TeamCard from "../components/TeamCard";
+import TeamCard2 from "../components/TeamCard2";
+import TeamCard3 from "../components/TeamCard3";
 
 
 export default function AboutPage() {
@@ -70,8 +72,8 @@ export default function AboutPage() {
             </div>
             <div className="flex flex-col md:flex-row gap-4 flex-wrap">
                 <TeamCard />
-                <TeamCard />
-                <TeamCard />
+                <TeamCard2 />
+                <TeamCard3 />
             </div>
         </div>
 
