@@ -37,7 +37,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
            </div>
           </div>
         </div>
-        <div className="w-[full] px-[50px] sm:px-[195px] py-5">
+        <div className="w-[full] py-5">
           <div className=" flex flex-col gap-5 sm:flex-row justify-between flex-wrap">
             <div className="flex gap-3 flex-col">
               <h5 className="footer-title">Company İnfo</h5>

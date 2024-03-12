@@ -10,7 +10,7 @@ import  { Link } from "react-router-dom/cjs/react-router-dom.min";
 const Contact = () => {
   return (
     <div>
-      <div className="flex items-center max-w-[1400px] mx-auto pl-[100px]">
+      <div className="flex flex-wrap items-center max-w-[1400px] mx-auto pl-[100px]">
         <div className="flex flex-col gap-[35px] items-start">
           <h5 className="text-[#252B42] text-base font-bold">CONTACT US</h5>
           <h1 className="ext-[#252B42] text-[58px] font-bold">Get in touch today!</h1>
