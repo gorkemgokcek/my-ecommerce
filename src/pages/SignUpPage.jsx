@@ -11,7 +11,7 @@ import {
   faPhone,
   faUser,
 } from "@fortawesome/free-solid-svg-icons";
-import axiosInstance from "../axios/axiosInstance";
+import { AxiosInstance } from "../axios/axiosInstance";
 import {
   useHistory  
 } from "react-router-dom/cjs/react-router-dom.min";
@@ -32,7 +32,7 @@ const SignUp = () => {
   const history = useHistory();
 
   useEffect(() => {
-    axiosInstance
+    AxiosInstance
       .get("/roles")
       .then((response) => {
         setRoles(response.data);
@@ -71,7 +71,7 @@ const SignUp = () => {
     setLoading(true);
     console.log("Form Data", formData);
 
-    axiosInstance
+    AxiosInstance
       .post("/signup", formData)
       .then((response) => {
         console.log("Submit Succeeded:", response);
